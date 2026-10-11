@@ -1,0 +1,3100 @@
+{
+  "schema": 2,
+  "date": "2026-10-11T19:00:32.607Z",
+  "scope": "Final x264 CRF16 video files. Source renderer checks are scoped separately as historical source evidence.",
+  "source": {
+    "artifact": "outputs\\Uncle-Saleh-Technical-Anatomy.html",
+    "artifactSha256": "d5a8f8699d073d990cb4931f7d1dac53dec42b95cbd8efd47d575c29e621e903",
+    "gpuBundleSha256": "11c3c28847dafa3b3b0fff1fcc337f80688e835bed3f23eb442d26f007aeef38",
+    "handBundleSha256": "c8e33be7ee55155133e1bd2fd451daf92f8501c3b752d877ef154045f169e5e1",
+    "packSha256": "9a70347e08649efbf61c6e801e648881dbbd1242fc6a4fcb5513f152fe7dfee6",
+    "rigSha256": "a06bd44053a49912ebdf34089b7484b0999be28c9b579e5f3e27c21b4f69c430",
+    "sourceTriangles": 110728,
+    "objects": 306,
+    "cadSolids": 298,
+    "timelineSha256": "dc76b070892c36c222efe55dd1421c85bb39a57c42e2aaf7ff8cfa0375f31ade"
+  },
+  "clips": [
+    {
+      "file": "hands-right.mp4",
+      "sha256": "e58ac2746ccb22aad2c57b2b3ae6b004b3c53e9a5ef3516ff36c5d8f32ef3dcb",
+      "decodedAllFrames": true,
+      "fullDecodeErrors": "",
+      "expectedFrames": 1500,
+      "actualFrames": 1500,
+      "fixedCamera": [
+        353.73666513462564,
+        346.2637542325334,
+        182.99214501201814,
+        80.67176035686067
+      ],
+      "croppedSourceRenderFrames": 0,
+      "emptySourceRenderFrames": 0,
+      "images": [
+        {
+          "file": "work/video-compression/finals/frames/hands-right-00.jpg",
+          "time": 0,
+          "nonblank": true,
+          "whiteMargin": null
+        },
+        {
+          "file": "work/video-compression/finals/frames/hands-right-01.jpg",
+          "time": 1.025,
+          "nonblank": true,
+          "whiteMargin": null
+        },
+        {
+          "file": "work/video-compression/finals/frames/hands-right-02.jpg",
+          "time": 2.15,
+          "nonblank": true,
+          "whiteMargin": null
+        },
+        {
+          "file": "work/video-compression/finals/frames/hands-right-03.jpg",
+          "time": 6.38,
+          "nonblank": true,
+          "whiteMargin": null
+        },
+        {
+          "file": "work/video-compression/finals/frames/hands-right-04.jpg",
+          "time": 7.5,
+          "nonblank": true,
+          "whiteMargin": null
+        },
+        {
+          "file": "work/video-compression/finals/frames/hands-right-05.jpg",
+          "time": 9.75,
+          "nonblank": true,
+          "whiteMargin": null
+        },
+        {
+          "file": "work/video-compression/finals/frames/hands-right-06.jpg",
+          "time": 14.15,
+          "nonblank": true,
+          "whiteMargin": null
+        },
+        {
+          "file": "work/video-compression/finals/frames/hands-right-07.jpg",
+          "time": 18.7,
+          "nonblank": true,
+          "whiteMargin": null
+        },
+        {
+          "file": "work/video-compression/finals/frames/hands-right-08.jpg",
+          "time": 20.49,
+          "nonblank": true,
+          "whiteMargin": null
+        },
+        {
+          "file": "work/video-compression/finals/frames/hands-right-09.jpg",
+          "time": 22.45,
+          "nonblank": true,
+          "whiteMargin": null
+        },
+        {
+          "file": "work/video-compression/finals/frames/hands-right-10.jpg",
+          "time": 24.95,
+          "nonblank": true,
+          "whiteMargin": null
+        }
+      ],
+      "audio": {
+        "file": "hands-right.mp4",
+        "track": "right",
+        "pass": true,
+        "codec": "aac",
+        "sampleRate": 48000,
+        "channels": 2,
+        "requestedBitrate": 192000,
+        "measuredBitrate": 34814,
+        "duration": 25,
+        "sourceClickInstances": 56,
+        "decodedSamplesPerChannel": 1200128,
+        "sourceSamplesPerChannel": 1200000,
+        "decodedPaddingSamples": 128,
+        "primingCompensatedAlignmentSamples": 0,
+        "alignmentMs": 0,
+        "waveformCorrelation": 0.9998701074617203,
+        "codecSnrDb": 33.820304658636346,
+        "peakDbFS": -17.02812712503589,
+        "truePeakDbFS": -17,
+        "integratedLufs": -42.5,
+        "activeClick50msRmsDbFS": {
+          "median": -39.8670378878183,
+          "maximum": -35.58835541741564,
+          "minimum": -46.628616180124915
+        },
+        "clippedSamples": 0,
+        "firstAndLast100msPeakDbFS": -300,
+        "maximumClickBeatToNearestVideoFrameMs": 8.333333333333748,
+        "videoElementarySha256": "7cec697f3b7a3371fdd12b1200ef33f08f230358796919fffb1afc21399159bf",
+        "audioElementarySha256": "451fac967b69eddaa81ac06b3ffa0ab70ac5405d612fad0ce74e3444d57e5ef3",
+        "containerSha256": "e58ac2746ccb22aad2c57b2b3ae6b004b3c53e9a5ef3516ff36c5d8f32ef3dcb",
+        "videoStreamReencoded": true,
+        "videoPresentationFrameTimesPreserved": true,
+        "audioPacketsAndTimingPreserved": true,
+        "decodedAudioSha256": "882ebc42d5afb6b9933e8460e1edf98b5279ad39d2f5206a55fd30d97117a1af",
+        "decodedAudioBytes": 9601024,
+        "audioBitstreamPreserved": true,
+        "decodedAudioPreserved": true
+      },
+      "compressionQuality": {
+        "full": {
+          "frames": 1500,
+          "mean": 0.9990275240000009,
+          "minimum": 0.998296,
+          "p01": 0.998453,
+          "median": 0.999023
+        },
+        "foreground": {
+          "frames": 1500,
+          "mean": 0.9965978619999993,
+          "minimum": 0.993572,
+          "p01": 0.994235,
+          "median": 0.996545
+        },
+        "caption": {
+          "frames": 1500,
+          "mean": 0.9993222526666666,
+          "minimum": 0.998664,
+          "p01": 0.998784,
+          "median": 0.999383
+        },
+        "foregroundRegion": {
+          "x": 600,
+          "y": 140,
+          "width": 720,
+          "height": 740
+        },
+        "captionRegion": {
+          "x": 64,
+          "y": 920,
+          "width": 1792,
+          "height": 100
+        }
+      }
+    },
+    {
+      "file": "hands-left.mp4",
+      "sha256": "b118cc956ac787afd040644a33b25454331c761a15fa292e7fa768c4cdd2583e",
+      "decodedAllFrames": true,
+      "fullDecodeErrors": "",
+      "expectedFrames": 1500,
+      "actualFrames": 1500,
+      "fixedCamera": [
+        526.3663214939777,
+        397.0676803796541,
+        185.69188035859645,
+        81.86193386344374
+      ],
+      "croppedSourceRenderFrames": 0,
+      "emptySourceRenderFrames": 0,
+      "images": [
+        {
+          "file": "work/video-compression/finals/frames/hands-left-00.jpg",
+          "time": 0,
+          "nonblank": true,
+          "whiteMargin": null
+        },
+        {
+          "file": "work/video-compression/finals/frames/hands-left-01.jpg",
+          "time": 1.025,
+          "nonblank": true,
+          "whiteMargin": null
+        },
+        {
+          "file": "work/video-compression/finals/frames/hands-left-02.jpg",
+          "time": 2.15,
+          "nonblank": true,
+          "whiteMargin": null
+        },
+        {
+          "file": "work/video-compression/finals/frames/hands-left-03.jpg",
+          "time": 6.38,
+          "nonblank": true,
+          "whiteMargin": null
+        },
+        {
+          "file": "work/video-compression/finals/frames/hands-left-04.jpg",
+          "time": 7.5,
+          "nonblank": true,
+          "whiteMargin": null
+        },
+        {
+          "file": "work/video-compression/finals/frames/hands-left-05.jpg",
+          "time": 9.75,
+          "nonblank": true,
+          "whiteMargin": null
+        },
+        {
+          "file": "work/video-compression/finals/frames/hands-left-06.jpg",
+          "time": 14.15,
+          "nonblank": true,
+          "whiteMargin": null
+        },
+        {
+          "file": "work/video-compression/finals/frames/hands-left-07.jpg",
+          "time": 18.7,
+          "nonblank": true,
+          "whiteMargin": null
+        },
+        {
+          "file": "work/video-compression/finals/frames/hands-left-08.jpg",
+          "time": 20.49,
+          "nonblank": true,
+          "whiteMargin": null
+        },
+        {
+          "file": "work/video-compression/finals/frames/hands-left-09.jpg",
+          "time": 22.45,
+          "nonblank": true,
+          "whiteMargin": null
+        },
+        {
+          "file": "work/video-compression/finals/frames/hands-left-10.jpg",
+          "time": 24.95,
+          "nonblank": true,
+          "whiteMargin": null
+        }
+      ],
+      "audio": {
+        "file": "hands-left.mp4",
+        "track": "left",
+        "pass": true,
+        "codec": "aac",
+        "sampleRate": 48000,
+        "channels": 2,
+        "requestedBitrate": 192000,
+        "measuredBitrate": 35060,
+        "duration": 25,
+        "sourceClickInstances": 56,
+        "decodedSamplesPerChannel": 1200128,
+        "sourceSamplesPerChannel": 1200000,
+        "decodedPaddingSamples": 128,
+        "primingCompensatedAlignmentSamples": 0,
+        "alignmentMs": 0,
+        "waveformCorrelation": 0.9998674716368336,
+        "codecSnrDb": 33.37732033780351,
+        "peakDbFS": -17.028737538515635,
+        "truePeakDbFS": -17,
+        "integratedLufs": -43.4,
+        "activeClick50msRmsDbFS": {
+          "median": -40.250057401118696,
+          "maximum": -35.78382864023593,
+          "minimum": -48.20022118218796
+        },
+        "clippedSamples": 0,
+        "firstAndLast100msPeakDbFS": -300,
+        "maximumClickBeatToNearestVideoFrameMs": 8.333333333333748,
+        "videoElementarySha256": "5044e5405570c24e826b8e1306b3dbe815ec2a53d33a5a476f9f304d8cd896aa",
+        "audioElementarySha256": "7794b62281bba2b339b637c70f7aec626a388adf7574eeca040dba725a1c133d",
+        "containerSha256": "b118cc956ac787afd040644a33b25454331c761a15fa292e7fa768c4cdd2583e",
+        "videoStreamReencoded": true,
+        "videoPresentationFrameTimesPreserved": true,
+        "audioPacketsAndTimingPreserved": true,
+        "decodedAudioSha256": "cd768994b40c3f1e113c95fddc6770d1bfed25d9dbf952e48b14c6ee857bfebd",
+        "decodedAudioBytes": 9601024,
+        "audioBitstreamPreserved": true,
+        "decodedAudioPreserved": true
+      },
+      "compressionQuality": {
+        "full": {
+          "frames": 1500,
+          "mean": 0.9990692000000003,
+          "minimum": 0.997894,
+          "p01": 0.998362,
+          "median": 0.999083
+        },
+        "foreground": {
+          "frames": 1500,
+          "mean": 0.9967678619999993,
+          "minimum": 0.992172,
+          "p01": 0.993843,
+          "median": 0.996861
+        },
+        "caption": {
+          "frames": 1500,
+          "mean": 0.9993191313333317,
+          "minimum": 0.998435,
+          "p01": 0.998674,
+          "median": 0.999387
+        },
+        "foregroundRegion": {
+          "x": 600,
+          "y": 140,
+          "width": 720,
+          "height": 740
+        },
+        "captionRegion": {
+          "x": 64,
+          "y": 920,
+          "width": 1792,
+          "height": 100
+        }
+      }
+    },
+    {
+      "file": "hands-both.mp4",
+      "sha256": "db390481826c7ffb47a80c267dc83edd2870f8ccd5fff418b55ce71c3e61b3bb",
+      "decodedAllFrames": true,
+      "fullDecodeErrors": "",
+      "expectedFrames": 1500,
+      "actualFrames": 1500,
+      "fixedCamera": [
+        378.6066813707747,
+        344.185753466395,
+        310.260485605487,
+        136.7777810425975
+      ],
+      "croppedSourceRenderFrames": 0,
+      "emptySourceRenderFrames": 0,
+      "images": [
+        {
+          "file": "work/video-compression/finals/frames/hands-both-00.jpg",
+          "time": 0,
+          "nonblank": true,
+          "whiteMargin": null
+        },
+        {
+          "file": "work/video-compression/finals/frames/hands-both-01.jpg",
+          "time": 1.025,
+          "nonblank": true,
+          "whiteMargin": null
+        },
+        {
+          "file": "work/video-compression/finals/frames/hands-both-02.jpg",
+          "time": 2.15,
+          "nonblank": true,
+          "whiteMargin": null
+        },
+        {
+          "file": "work/video-compression/finals/frames/hands-both-03.jpg",
+          "time": 6.38,
+          "nonblank": true,
+          "whiteMargin": null
+        },
+        {
+          "file": "work/video-compression/finals/frames/hands-both-04.jpg",
+          "time": 7.5,
+          "nonblank": true,
+          "whiteMargin": null
+        },
+        {
+          "file": "work/video-compression/finals/frames/hands-both-05.jpg",
+          "time": 9.75,
+          "nonblank": true,
+          "whiteMargin": null
+        },
+        {
+          "file": "work/video-compression/finals/frames/hands-both-06.jpg",
+          "time": 14.15,
+          "nonblank": true,
+          "whiteMargin": null
+        },
+        {
+          "file": "work/video-compression/finals/frames/hands-both-07.jpg",
+          "time": 18.7,
+          "nonblank": true,
+          "whiteMargin": null
+        },
+        {
+          "file": "work/video-compression/finals/frames/hands-both-08.jpg",
+          "time": 20.49,
+          "nonblank": true,
+          "whiteMargin": null
+        },
+        {
+          "file": "work/video-compression/finals/frames/hands-both-09.jpg",
+          "time": 22.45,
+          "nonblank": true,
+          "whiteMargin": null
+        },
+        {
+          "file": "work/video-compression/finals/frames/hands-both-10.jpg",
+          "time": 24.95,
+          "nonblank": true,
+          "whiteMargin": null
+        }
+      ],
+      "audio": {
+        "file": "hands-both.mp4",
+        "track": "both",
+        "pass": true,
+        "codec": "aac",
+        "sampleRate": 48000,
+        "channels": 2,
+        "requestedBitrate": 192000,
+        "measuredBitrate": 35042,
+        "duration": 25,
+        "sourceClickInstances": 112,
+        "decodedSamplesPerChannel": 1200128,
+        "sourceSamplesPerChannel": 1200000,
+        "decodedPaddingSamples": 128,
+        "primingCompensatedAlignmentSamples": 0,
+        "alignmentMs": 0,
+        "waveformCorrelation": 0.9998769537919447,
+        "codecSnrDb": 33.85214109364347,
+        "peakDbFS": -15.541915821437044,
+        "truePeakDbFS": -15.5,
+        "integratedLufs": -41.1,
+        "activeClick50msRmsDbFS": {
+          "median": -38.561481032595964,
+          "maximum": -33.80036731721287,
+          "minimum": -46.45683379218098
+        },
+        "clippedSamples": 0,
+        "firstAndLast100msPeakDbFS": -300,
+        "maximumClickBeatToNearestVideoFrameMs": 8.333333333333748,
+        "videoElementarySha256": "3e8ecb3aaa75221ed193ed323cf0f811456fdfc3472a6115bb7a56546b00cc06",
+        "audioElementarySha256": "25e16d79f9c30eb2c6e9c63f275c7a79ea9be4ba490c2b2080615419dec37387",
+        "containerSha256": "db390481826c7ffb47a80c267dc83edd2870f8ccd5fff418b55ce71c3e61b3bb",
+        "videoStreamReencoded": true,
+        "videoPresentationFrameTimesPreserved": true,
+        "audioPacketsAndTimingPreserved": true,
+        "decodedAudioSha256": "0409a1ddac0a1d4acbc2d608a7aff439bc5f41e57246dbedae461497342f9f62",
+        "decodedAudioBytes": 9601024,
+        "audioBitstreamPreserved": true,
+        "decodedAudioPreserved": true
+      },
+      "compressionQuality": {
+        "full": {
+          "frames": 1500,
+          "mean": 0.9991166986666673,
+          "minimum": 0.998268,
+          "p01": 0.998549,
+          "median": 0.999122
+        },
+        "foreground": {
+          "frames": 1500,
+          "mean": 0.9984748519999983,
+          "minimum": 0.996727,
+          "p01": 0.997286,
+          "median": 0.998524
+        },
+        "caption": {
+          "frames": 1500,
+          "mean": 0.9993265253333318,
+          "minimum": 0.998499,
+          "p01": 0.998701,
+          "median": 0.999375
+        },
+        "foregroundRegion": {
+          "x": 240,
+          "y": 140,
+          "width": 1440,
+          "height": 740
+        },
+        "captionRegion": {
+          "x": 64,
+          "y": 920,
+          "width": 1792,
+          "height": 100
+        }
+      }
+    },
+    {
+      "file": "hand-360-black-graphite.mp4",
+      "sha256": "385b89404949ab7016b58991bb717373ae46dd1c6bffea926ec7055295e766e9",
+      "decodedAllFrames": true,
+      "fullDecodeErrors": "",
+      "expectedFrames": 2400,
+      "actualFrames": 2400,
+      "fixedCamera": [
+        349.7644831846759,
+        343.0400156286398,
+        196.71267793904443,
+        86.72043279678856
+      ],
+      "croppedSourceRenderFrames": 0,
+      "emptySourceRenderFrames": 0,
+      "images": [
+        {
+          "file": "work/video-compression/finals/frames/hand-360-black-graphite-00.jpg",
+          "time": 0,
+          "nonblank": true,
+          "whiteMargin": null
+        },
+        {
+          "file": "work/video-compression/finals/frames/hand-360-black-graphite-01.jpg",
+          "time": 5,
+          "nonblank": true,
+          "whiteMargin": null
+        },
+        {
+          "file": "work/video-compression/finals/frames/hand-360-black-graphite-02.jpg",
+          "time": 10,
+          "nonblank": true,
+          "whiteMargin": null
+        },
+        {
+          "file": "work/video-compression/finals/frames/hand-360-black-graphite-03.jpg",
+          "time": 15,
+          "nonblank": true,
+          "whiteMargin": null
+        },
+        {
+          "file": "work/video-compression/finals/frames/hand-360-black-graphite-04.jpg",
+          "time": 20,
+          "nonblank": true,
+          "whiteMargin": null
+        },
+        {
+          "file": "work/video-compression/finals/frames/hand-360-black-graphite-05.jpg",
+          "time": 25,
+          "nonblank": true,
+          "whiteMargin": null
+        },
+        {
+          "file": "work/video-compression/finals/frames/hand-360-black-graphite-06.jpg",
+          "time": 30,
+          "nonblank": true,
+          "whiteMargin": null
+        },
+        {
+          "file": "work/video-compression/finals/frames/hand-360-black-graphite-07.jpg",
+          "time": 35,
+          "nonblank": true,
+          "whiteMargin": null
+        },
+        {
+          "file": "work/video-compression/finals/frames/hand-360-black-graphite-08.jpg",
+          "time": 39.95,
+          "nonblank": true,
+          "whiteMargin": null
+        }
+      ],
+      "audio": {
+        "file": "hand-360-black-graphite.mp4",
+        "track": "orbit",
+        "pass": true,
+        "codec": "aac",
+        "sampleRate": 48000,
+        "channels": 2,
+        "requestedBitrate": 192000,
+        "measuredBitrate": 22685,
+        "duration": 40,
+        "sourceClickInstances": 56,
+        "decodedSamplesPerChannel": 1920000,
+        "sourceSamplesPerChannel": 1920000,
+        "decodedPaddingSamples": 0,
+        "primingCompensatedAlignmentSamples": 0,
+        "alignmentMs": 0,
+        "waveformCorrelation": 0.9998214583856726,
+        "codecSnrDb": 33.91669289414635,
+        "peakDbFS": -17.060226430698464,
+        "truePeakDbFS": -17,
+        "integratedLufs": -42.8,
+        "activeClick50msRmsDbFS": {
+          "median": -39.12027937226945,
+          "maximum": -34.900044904368755,
+          "minimum": -45.898591693697924
+        },
+        "clippedSamples": 0,
+        "firstAndLast100msPeakDbFS": -300,
+        "maximumClickBeatToNearestVideoFrameMs": 8.000000000002672,
+        "videoElementarySha256": "75d36e041c4c01e78508056af5aa90edf019ac28adf390dd3ae68d43661f2a94",
+        "audioElementarySha256": "eba4757881511782a08f48d0ef4f501f99a484d2043735164689983fafd346da",
+        "containerSha256": "385b89404949ab7016b58991bb717373ae46dd1c6bffea926ec7055295e766e9",
+        "videoStreamReencoded": true,
+        "videoPresentationFrameTimesPreserved": true,
+        "audioPacketsAndTimingPreserved": true,
+        "decodedAudioSha256": "bf9f748a461e497987096c4f4571b4c42409d05439004481b7f91f6dcbfd7b7a",
+        "decodedAudioBytes": 15360000,
+        "audioBitstreamPreserved": true,
+        "decodedAudioPreserved": true
+      },
+      "compressionQuality": {
+        "full": {
+          "frames": 2400,
+          "mean": 0.9989635541666646,
+          "minimum": 0.998271,
+          "p01": 0.998498,
+          "median": 0.998926
+        },
+        "foreground": {
+          "frames": 2400,
+          "mean": 0.9962908837499981,
+          "minimum": 0.9935,
+          "p01": 0.994486,
+          "median": 0.99618
+        },
+        "caption": {
+          "frames": 2400,
+          "mean": 0.999461633750003,
+          "minimum": 0.998417,
+          "p01": 0.998737,
+          "median": 0.999562
+        },
+        "foregroundRegion": {
+          "x": 600,
+          "y": 140,
+          "width": 720,
+          "height": 740
+        },
+        "captionRegion": {
+          "x": 64,
+          "y": 920,
+          "width": 1792,
+          "height": 100
+        }
+      }
+    },
+    {
+      "file": "hand-360-black-colours.mp4",
+      "sha256": "f37086690f1ae33d28f045240ed8be00f536e9dafefdfab6588db184f91a0264",
+      "decodedAllFrames": true,
+      "fullDecodeErrors": "",
+      "expectedFrames": 2400,
+      "actualFrames": 2400,
+      "fixedCamera": [
+        349.7644831846759,
+        343.0400156286398,
+        196.71267793904443,
+        86.72043279678856
+      ],
+      "croppedSourceRenderFrames": 0,
+      "emptySourceRenderFrames": 0,
+      "images": [
+        {
+          "file": "work/video-compression/finals/frames/hand-360-black-colours-00.jpg",
+          "time": 0,
+          "nonblank": true,
+          "whiteMargin": null
+        },
+        {
+          "file": "work/video-compression/finals/frames/hand-360-black-colours-01.jpg",
+          "time": 5,
+          "nonblank": true,
+          "whiteMargin": null
+        },
+        {
+          "file": "work/video-compression/finals/frames/hand-360-black-colours-02.jpg",
+          "time": 10,
+          "nonblank": true,
+          "whiteMargin": null
+        },
+        {
+          "file": "work/video-compression/finals/frames/hand-360-black-colours-03.jpg",
+          "time": 15,
+          "nonblank": true,
+          "whiteMargin": null
+        },
+        {
+          "file": "work/video-compression/finals/frames/hand-360-black-colours-04.jpg",
+          "time": 20,
+          "nonblank": true,
+          "whiteMargin": null
+        },
+        {
+          "file": "work/video-compression/finals/frames/hand-360-black-colours-05.jpg",
+          "time": 25,
+          "nonblank": true,
+          "whiteMargin": null
+        },
+        {
+          "file": "work/video-compression/finals/frames/hand-360-black-colours-06.jpg",
+          "time": 30,
+          "nonblank": true,
+          "whiteMargin": null
+        },
+        {
+          "file": "work/video-compression/finals/frames/hand-360-black-colours-07.jpg",
+          "time": 35,
+          "nonblank": true,
+          "whiteMargin": null
+        },
+        {
+          "file": "work/video-compression/finals/frames/hand-360-black-colours-08.jpg",
+          "time": 39.95,
+          "nonblank": true,
+          "whiteMargin": null
+        }
+      ],
+      "audio": {
+        "file": "hand-360-black-colours.mp4",
+        "track": "orbit",
+        "pass": true,
+        "codec": "aac",
+        "sampleRate": 48000,
+        "channels": 2,
+        "requestedBitrate": 192000,
+        "measuredBitrate": 22685,
+        "duration": 40,
+        "sourceClickInstances": 56,
+        "decodedSamplesPerChannel": 1920000,
+        "sourceSamplesPerChannel": 1920000,
+        "decodedPaddingSamples": 0,
+        "primingCompensatedAlignmentSamples": 0,
+        "alignmentMs": 0,
+        "waveformCorrelation": 0.9998214583856726,
+        "codecSnrDb": 33.91669289414635,
+        "peakDbFS": -17.060226430698464,
+        "truePeakDbFS": -17,
+        "integratedLufs": -42.8,
+        "activeClick50msRmsDbFS": {
+          "median": -39.12027937226945,
+          "maximum": -34.900044904368755,
+          "minimum": -45.898591693697924
+        },
+        "clippedSamples": 0,
+        "firstAndLast100msPeakDbFS": -300,
+        "maximumClickBeatToNearestVideoFrameMs": 8.000000000002672,
+        "videoElementarySha256": "c706af8152ade9ed066da34ab352a96d50045a04bafa8adca5eee141261ad8f3",
+        "audioElementarySha256": "eba4757881511782a08f48d0ef4f501f99a484d2043735164689983fafd346da",
+        "containerSha256": "f37086690f1ae33d28f045240ed8be00f536e9dafefdfab6588db184f91a0264",
+        "videoStreamReencoded": true,
+        "videoPresentationFrameTimesPreserved": true,
+        "audioPacketsAndTimingPreserved": true,
+        "decodedAudioSha256": "bf9f748a461e497987096c4f4571b4c42409d05439004481b7f91f6dcbfd7b7a",
+        "decodedAudioBytes": 15360000,
+        "audioBitstreamPreserved": true,
+        "decodedAudioPreserved": true
+      },
+      "compressionQuality": {
+        "full": {
+          "frames": 2400,
+          "mean": 0.9990327391666682,
+          "minimum": 0.998505,
+          "p01": 0.998595,
+          "median": 0.999039
+        },
+        "foreground": {
+          "frames": 2400,
+          "mean": 0.9965444512500026,
+          "minimum": 0.994424,
+          "p01": 0.994865,
+          "median": 0.996565
+        },
+        "caption": {
+          "frames": 2400,
+          "mean": 0.9994611354166673,
+          "minimum": 0.998441,
+          "p01": 0.998787,
+          "median": 0.999565
+        },
+        "foregroundRegion": {
+          "x": 600,
+          "y": 140,
+          "width": 720,
+          "height": 740
+        },
+        "captionRegion": {
+          "x": 64,
+          "y": 920,
+          "width": 1792,
+          "height": 100
+        }
+      }
+    },
+    {
+      "file": "hand-360-white-colours.mp4",
+      "sha256": "714d9d9beaa101f79b9a912f19c6bec3a0be727b4ea86db35745d35be38f0a62",
+      "decodedAllFrames": true,
+      "fullDecodeErrors": "",
+      "expectedFrames": 2400,
+      "actualFrames": 2400,
+      "fixedCamera": [
+        349.7644831846759,
+        343.0400156286398,
+        196.71267793904443,
+        86.72043279678856
+      ],
+      "croppedSourceRenderFrames": 0,
+      "emptySourceRenderFrames": 0,
+      "images": [
+        {
+          "file": "work/video-compression/finals/frames/hand-360-white-colours-00.jpg",
+          "time": 0,
+          "nonblank": true,
+          "whiteMargin": true
+        },
+        {
+          "file": "work/video-compression/finals/frames/hand-360-white-colours-01.jpg",
+          "time": 5,
+          "nonblank": true,
+          "whiteMargin": true
+        },
+        {
+          "file": "work/video-compression/finals/frames/hand-360-white-colours-02.jpg",
+          "time": 10,
+          "nonblank": true,
+          "whiteMargin": true
+        },
+        {
+          "file": "work/video-compression/finals/frames/hand-360-white-colours-03.jpg",
+          "time": 15,
+          "nonblank": true,
+          "whiteMargin": true
+        },
+        {
+          "file": "work/video-compression/finals/frames/hand-360-white-colours-04.jpg",
+          "time": 20,
+          "nonblank": true,
+          "whiteMargin": true
+        },
+        {
+          "file": "work/video-compression/finals/frames/hand-360-white-colours-05.jpg",
+          "time": 25,
+          "nonblank": true,
+          "whiteMargin": true
+        },
+        {
+          "file": "work/video-compression/finals/frames/hand-360-white-colours-06.jpg",
+          "time": 30,
+          "nonblank": true,
+          "whiteMargin": true
+        },
+        {
+          "file": "work/video-compression/finals/frames/hand-360-white-colours-07.jpg",
+          "time": 35,
+          "nonblank": true,
+          "whiteMargin": true
+        },
+        {
+          "file": "work/video-compression/finals/frames/hand-360-white-colours-08.jpg",
+          "time": 39.95,
+          "nonblank": true,
+          "whiteMargin": true
+        }
+      ],
+      "audio": {
+        "file": "hand-360-white-colours.mp4",
+        "track": "orbit",
+        "pass": true,
+        "codec": "aac",
+        "sampleRate": 48000,
+        "channels": 2,
+        "requestedBitrate": 192000,
+        "measuredBitrate": 22685,
+        "duration": 40,
+        "sourceClickInstances": 56,
+        "decodedSamplesPerChannel": 1920000,
+        "sourceSamplesPerChannel": 1920000,
+        "decodedPaddingSamples": 0,
+        "primingCompensatedAlignmentSamples": 0,
+        "alignmentMs": 0,
+        "waveformCorrelation": 0.9998214583856726,
+        "codecSnrDb": 33.91669289414635,
+        "peakDbFS": -17.060226430698464,
+        "truePeakDbFS": -17,
+        "integratedLufs": -42.8,
+        "activeClick50msRmsDbFS": {
+          "median": -39.12027937226945,
+          "maximum": -34.900044904368755,
+          "minimum": -45.898591693697924
+        },
+        "clippedSamples": 0,
+        "firstAndLast100msPeakDbFS": -300,
+        "maximumClickBeatToNearestVideoFrameMs": 8.000000000002672,
+        "videoElementarySha256": "8f472aaab72bbcde02a525943f9d91d44d58a553e25a68b7a0195e221a660610",
+        "audioElementarySha256": "eba4757881511782a08f48d0ef4f501f99a484d2043735164689983fafd346da",
+        "containerSha256": "714d9d9beaa101f79b9a912f19c6bec3a0be727b4ea86db35745d35be38f0a62",
+        "videoStreamReencoded": true,
+        "videoPresentationFrameTimesPreserved": true,
+        "audioPacketsAndTimingPreserved": true,
+        "decodedAudioSha256": "bf9f748a461e497987096c4f4571b4c42409d05439004481b7f91f6dcbfd7b7a",
+        "decodedAudioBytes": 15360000,
+        "audioBitstreamPreserved": true,
+        "decodedAudioPreserved": true
+      },
+      "compressionQuality": {
+        "full": {
+          "frames": 2400,
+          "mean": 0.9990189633333327,
+          "minimum": 0.998439,
+          "p01": 0.998591,
+          "median": 0.999034
+        },
+        "foreground": {
+          "frames": 2400,
+          "mean": 0.9965401037499974,
+          "minimum": 0.994408,
+          "p01": 0.994871,
+          "median": 0.996587
+        },
+        "caption": {
+          "frames": 2400,
+          "mean": 0.999386351666667,
+          "minimum": 0.998332,
+          "p01": 0.998723,
+          "median": 0.999467
+        },
+        "foregroundRegion": {
+          "x": 600,
+          "y": 140,
+          "width": 720,
+          "height": 740
+        },
+        "captionRegion": {
+          "x": 64,
+          "y": 920,
+          "width": 1792,
+          "height": 100
+        }
+      }
+    }
+  ],
+  "checks": [
+    {
+      "name": "hands-right.mp4 final 1080p60 full decode, exact frame presentation times and high-quality lossy optimization",
+      "pass": true,
+      "detail": {
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "index": 0,
+              "codec_name": "h264",
+              "profile": "High",
+              "width": 1920,
+              "height": 1080,
+              "pix_fmt": "yuv420p",
+              "r_frame_rate": "60/1",
+              "avg_frame_rate": "60/1",
+              "start_time": "0.000000",
+              "duration": "25.000000",
+              "bit_rate": "2228151",
+              "nb_read_frames": "1500"
+            },
+            {
+              "index": 1,
+              "codec_name": "aac",
+              "profile": "LC",
+              "sample_rate": "48000",
+              "channels": 2,
+              "channel_layout": "stereo",
+              "r_frame_rate": "0/0",
+              "avg_frame_rate": "0/0",
+              "start_time": "0.000000",
+              "duration": "25.000000",
+              "bit_rate": "34814",
+              "nb_read_frames": "1172"
+            }
+          ],
+          "format": {
+            "duration": "25.000000",
+            "size": "7113231"
+          }
+        },
+        "logicalPresentationFrameTimesPreserved": true,
+        "fullDecodeErrors": "",
+        "quality": {
+          "full": {
+            "frames": 1500,
+            "mean": 0.9990275240000009,
+            "minimum": 0.998296,
+            "p01": 0.998453,
+            "median": 0.999023
+          },
+          "foreground": {
+            "frames": 1500,
+            "mean": 0.9965978619999993,
+            "minimum": 0.993572,
+            "p01": 0.994235,
+            "median": 0.996545
+          },
+          "caption": {
+            "frames": 1500,
+            "mean": 0.9993222526666666,
+            "minimum": 0.998664,
+            "p01": 0.998784,
+            "median": 0.999383
+          },
+          "foregroundRegion": {
+            "x": 600,
+            "y": 140,
+            "width": 720,
+            "height": 740
+          },
+          "captionRegion": {
+            "x": 64,
+            "y": 920,
+            "width": 1792,
+            "height": 100
+          }
+        },
+        "sha256": "e58ac2746ccb22aad2c57b2b3ae6b004b3c53e9a5ef3516ff36c5d8f32ef3dcb"
+      }
+    },
+    {
+      "name": "hands-left.mp4 final 1080p60 full decode, exact frame presentation times and high-quality lossy optimization",
+      "pass": true,
+      "detail": {
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "index": 0,
+              "codec_name": "h264",
+              "profile": "High",
+              "width": 1920,
+              "height": 1080,
+              "pix_fmt": "yuv420p",
+              "r_frame_rate": "60/1",
+              "avg_frame_rate": "60/1",
+              "start_time": "0.000000",
+              "duration": "25.000000",
+              "bit_rate": "2066258",
+              "nb_read_frames": "1500"
+            },
+            {
+              "index": 1,
+              "codec_name": "aac",
+              "profile": "LC",
+              "sample_rate": "48000",
+              "channels": 2,
+              "channel_layout": "stereo",
+              "r_frame_rate": "0/0",
+              "avg_frame_rate": "0/0",
+              "start_time": "0.000000",
+              "duration": "25.000000",
+              "bit_rate": "35060",
+              "nb_read_frames": "1172"
+            }
+          ],
+          "format": {
+            "duration": "25.000000",
+            "size": "6608052"
+          }
+        },
+        "logicalPresentationFrameTimesPreserved": true,
+        "fullDecodeErrors": "",
+        "quality": {
+          "full": {
+            "frames": 1500,
+            "mean": 0.9990692000000003,
+            "minimum": 0.997894,
+            "p01": 0.998362,
+            "median": 0.999083
+          },
+          "foreground": {
+            "frames": 1500,
+            "mean": 0.9967678619999993,
+            "minimum": 0.992172,
+            "p01": 0.993843,
+            "median": 0.996861
+          },
+          "caption": {
+            "frames": 1500,
+            "mean": 0.9993191313333317,
+            "minimum": 0.998435,
+            "p01": 0.998674,
+            "median": 0.999387
+          },
+          "foregroundRegion": {
+            "x": 600,
+            "y": 140,
+            "width": 720,
+            "height": 740
+          },
+          "captionRegion": {
+            "x": 64,
+            "y": 920,
+            "width": 1792,
+            "height": 100
+          }
+        },
+        "sha256": "b118cc956ac787afd040644a33b25454331c761a15fa292e7fa768c4cdd2583e"
+      }
+    },
+    {
+      "name": "hands-both.mp4 final 1080p60 full decode, exact frame presentation times and high-quality lossy optimization",
+      "pass": true,
+      "detail": {
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "index": 0,
+              "codec_name": "h264",
+              "profile": "High",
+              "width": 1920,
+              "height": 1080,
+              "pix_fmt": "yuv420p",
+              "r_frame_rate": "60/1",
+              "avg_frame_rate": "60/1",
+              "start_time": "0.000000",
+              "duration": "25.000000",
+              "bit_rate": "2161952",
+              "nb_read_frames": "1500"
+            },
+            {
+              "index": 1,
+              "codec_name": "aac",
+              "profile": "LC",
+              "sample_rate": "48000",
+              "channels": 2,
+              "channel_layout": "stereo",
+              "r_frame_rate": "0/0",
+              "avg_frame_rate": "0/0",
+              "start_time": "0.000000",
+              "duration": "25.000000",
+              "bit_rate": "35042",
+              "nb_read_frames": "1172"
+            }
+          ],
+          "format": {
+            "duration": "25.000000",
+            "size": "6907071"
+          }
+        },
+        "logicalPresentationFrameTimesPreserved": true,
+        "fullDecodeErrors": "",
+        "quality": {
+          "full": {
+            "frames": 1500,
+            "mean": 0.9991166986666673,
+            "minimum": 0.998268,
+            "p01": 0.998549,
+            "median": 0.999122
+          },
+          "foreground": {
+            "frames": 1500,
+            "mean": 0.9984748519999983,
+            "minimum": 0.996727,
+            "p01": 0.997286,
+            "median": 0.998524
+          },
+          "caption": {
+            "frames": 1500,
+            "mean": 0.9993265253333318,
+            "minimum": 0.998499,
+            "p01": 0.998701,
+            "median": 0.999375
+          },
+          "foregroundRegion": {
+            "x": 240,
+            "y": 140,
+            "width": 1440,
+            "height": 740
+          },
+          "captionRegion": {
+            "x": 64,
+            "y": 920,
+            "width": 1792,
+            "height": 100
+          }
+        },
+        "sha256": "db390481826c7ffb47a80c267dc83edd2870f8ccd5fff418b55ce71c3e61b3bb"
+      }
+    },
+    {
+      "name": "hand-360-black-graphite.mp4 final 1080p60 full decode, exact frame presentation times and high-quality lossy optimization",
+      "pass": true,
+      "detail": {
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "index": 0,
+              "codec_name": "h264",
+              "profile": "High",
+              "width": 1920,
+              "height": 1080,
+              "pix_fmt": "yuv420p",
+              "r_frame_rate": "60/1",
+              "avg_frame_rate": "60/1",
+              "start_time": "0.000000",
+              "duration": "40.000000",
+              "bit_rate": "2368577",
+              "nb_read_frames": "2400"
+            },
+            {
+              "index": 1,
+              "codec_name": "aac",
+              "profile": "LC",
+              "sample_rate": "48000",
+              "channels": 2,
+              "channel_layout": "stereo",
+              "r_frame_rate": "0/0",
+              "avg_frame_rate": "0/0",
+              "start_time": "0.000000",
+              "duration": "40.000000",
+              "bit_rate": "22685",
+              "nb_read_frames": "1875"
+            }
+          ],
+          "format": {
+            "duration": "40.000000",
+            "size": "12021687"
+          }
+        },
+        "logicalPresentationFrameTimesPreserved": true,
+        "fullDecodeErrors": "",
+        "quality": {
+          "full": {
+            "frames": 2400,
+            "mean": 0.9989635541666646,
+            "minimum": 0.998271,
+            "p01": 0.998498,
+            "median": 0.998926
+          },
+          "foreground": {
+            "frames": 2400,
+            "mean": 0.9962908837499981,
+            "minimum": 0.9935,
+            "p01": 0.994486,
+            "median": 0.99618
+          },
+          "caption": {
+            "frames": 2400,
+            "mean": 0.999461633750003,
+            "minimum": 0.998417,
+            "p01": 0.998737,
+            "median": 0.999562
+          },
+          "foregroundRegion": {
+            "x": 600,
+            "y": 140,
+            "width": 720,
+            "height": 740
+          },
+          "captionRegion": {
+            "x": 64,
+            "y": 920,
+            "width": 1792,
+            "height": 100
+          }
+        },
+        "sha256": "385b89404949ab7016b58991bb717373ae46dd1c6bffea926ec7055295e766e9"
+      }
+    },
+    {
+      "name": "hand-360-black-colours.mp4 final 1080p60 full decode, exact frame presentation times and high-quality lossy optimization",
+      "pass": true,
+      "detail": {
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "index": 0,
+              "codec_name": "h264",
+              "profile": "High",
+              "width": 1920,
+              "height": 1080,
+              "pix_fmt": "yuv420p",
+              "r_frame_rate": "60/1",
+              "avg_frame_rate": "60/1",
+              "start_time": "0.000000",
+              "duration": "40.000000",
+              "bit_rate": "2085097",
+              "nb_read_frames": "2400"
+            },
+            {
+              "index": 1,
+              "codec_name": "aac",
+              "profile": "LC",
+              "sample_rate": "48000",
+              "channels": 2,
+              "channel_layout": "stereo",
+              "r_frame_rate": "0/0",
+              "avg_frame_rate": "0/0",
+              "start_time": "0.000000",
+              "duration": "40.000000",
+              "bit_rate": "22685",
+              "nb_read_frames": "1875"
+            }
+          ],
+          "format": {
+            "duration": "40.000000",
+            "size": "10604284"
+          }
+        },
+        "logicalPresentationFrameTimesPreserved": true,
+        "fullDecodeErrors": "",
+        "quality": {
+          "full": {
+            "frames": 2400,
+            "mean": 0.9990327391666682,
+            "minimum": 0.998505,
+            "p01": 0.998595,
+            "median": 0.999039
+          },
+          "foreground": {
+            "frames": 2400,
+            "mean": 0.9965444512500026,
+            "minimum": 0.994424,
+            "p01": 0.994865,
+            "median": 0.996565
+          },
+          "caption": {
+            "frames": 2400,
+            "mean": 0.9994611354166673,
+            "minimum": 0.998441,
+            "p01": 0.998787,
+            "median": 0.999565
+          },
+          "foregroundRegion": {
+            "x": 600,
+            "y": 140,
+            "width": 720,
+            "height": 740
+          },
+          "captionRegion": {
+            "x": 64,
+            "y": 920,
+            "width": 1792,
+            "height": 100
+          }
+        },
+        "sha256": "f37086690f1ae33d28f045240ed8be00f536e9dafefdfab6588db184f91a0264"
+      }
+    },
+    {
+      "name": "hand-360-white-colours.mp4 final 1080p60 full decode, exact frame presentation times and high-quality lossy optimization",
+      "pass": true,
+      "detail": {
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "index": 0,
+              "codec_name": "h264",
+              "profile": "High",
+              "width": 1920,
+              "height": 1080,
+              "pix_fmt": "yuv420p",
+              "r_frame_rate": "60/1",
+              "avg_frame_rate": "60/1",
+              "start_time": "0.000000",
+              "duration": "40.000000",
+              "bit_rate": "2059542",
+              "nb_read_frames": "2400"
+            },
+            {
+              "index": 1,
+              "codec_name": "aac",
+              "profile": "LC",
+              "sample_rate": "48000",
+              "channels": 2,
+              "channel_layout": "stereo",
+              "r_frame_rate": "0/0",
+              "avg_frame_rate": "0/0",
+              "start_time": "0.000000",
+              "duration": "40.000000",
+              "bit_rate": "22685",
+              "nb_read_frames": "1875"
+            }
+          ],
+          "format": {
+            "duration": "40.000000",
+            "size": "10476512"
+          }
+        },
+        "logicalPresentationFrameTimesPreserved": true,
+        "fullDecodeErrors": "",
+        "quality": {
+          "full": {
+            "frames": 2400,
+            "mean": 0.9990189633333327,
+            "minimum": 0.998439,
+            "p01": 0.998591,
+            "median": 0.999034
+          },
+          "foreground": {
+            "frames": 2400,
+            "mean": 0.9965401037499974,
+            "minimum": 0.994408,
+            "p01": 0.994871,
+            "median": 0.996587
+          },
+          "caption": {
+            "frames": 2400,
+            "mean": 0.999386351666667,
+            "minimum": 0.998332,
+            "p01": 0.998723,
+            "median": 0.999467
+          },
+          "foregroundRegion": {
+            "x": 600,
+            "y": 140,
+            "width": 720,
+            "height": 740
+          },
+          "captionRegion": {
+            "x": 64,
+            "y": 920,
+            "width": 1792,
+            "height": 100
+          }
+        },
+        "sha256": "714d9d9beaa101f79b9a912f19c6bec3a0be727b4ea86db35745d35be38f0a62"
+      }
+    },
+    {
+      "name": "hands-right.mp4 final AAC bitstream, packet timing and decoded waveform unchanged",
+      "pass": true,
+      "detail": {
+        "file": "hands-right.mp4",
+        "track": "right",
+        "pass": true,
+        "codec": "aac",
+        "sampleRate": 48000,
+        "channels": 2,
+        "requestedBitrate": 192000,
+        "measuredBitrate": 34814,
+        "duration": 25,
+        "sourceClickInstances": 56,
+        "decodedSamplesPerChannel": 1200128,
+        "sourceSamplesPerChannel": 1200000,
+        "decodedPaddingSamples": 128,
+        "primingCompensatedAlignmentSamples": 0,
+        "alignmentMs": 0,
+        "waveformCorrelation": 0.9998701074617203,
+        "codecSnrDb": 33.820304658636346,
+        "peakDbFS": -17.02812712503589,
+        "truePeakDbFS": -17,
+        "integratedLufs": -42.5,
+        "activeClick50msRmsDbFS": {
+          "median": -39.8670378878183,
+          "maximum": -35.58835541741564,
+          "minimum": -46.628616180124915
+        },
+        "clippedSamples": 0,
+        "firstAndLast100msPeakDbFS": -300,
+        "maximumClickBeatToNearestVideoFrameMs": 8.333333333333748,
+        "videoElementarySha256": "7cec697f3b7a3371fdd12b1200ef33f08f230358796919fffb1afc21399159bf",
+        "audioElementarySha256": "451fac967b69eddaa81ac06b3ffa0ab70ac5405d612fad0ce74e3444d57e5ef3",
+        "containerSha256": "e58ac2746ccb22aad2c57b2b3ae6b004b3c53e9a5ef3516ff36c5d8f32ef3dcb",
+        "videoStreamReencoded": true,
+        "videoPresentationFrameTimesPreserved": true,
+        "audioPacketsAndTimingPreserved": true,
+        "decodedAudioSha256": "882ebc42d5afb6b9933e8460e1edf98b5279ad39d2f5206a55fd30d97117a1af",
+        "decodedAudioBytes": 9601024,
+        "audioBitstreamPreserved": true,
+        "decodedAudioPreserved": true
+      }
+    },
+    {
+      "name": "hands-left.mp4 final AAC bitstream, packet timing and decoded waveform unchanged",
+      "pass": true,
+      "detail": {
+        "file": "hands-left.mp4",
+        "track": "left",
+        "pass": true,
+        "codec": "aac",
+        "sampleRate": 48000,
+        "channels": 2,
+        "requestedBitrate": 192000,
+        "measuredBitrate": 35060,
+        "duration": 25,
+        "sourceClickInstances": 56,
+        "decodedSamplesPerChannel": 1200128,
+        "sourceSamplesPerChannel": 1200000,
+        "decodedPaddingSamples": 128,
+        "primingCompensatedAlignmentSamples": 0,
+        "alignmentMs": 0,
+        "waveformCorrelation": 0.9998674716368336,
+        "codecSnrDb": 33.37732033780351,
+        "peakDbFS": -17.028737538515635,
+        "truePeakDbFS": -17,
+        "integratedLufs": -43.4,
+        "activeClick50msRmsDbFS": {
+          "median": -40.250057401118696,
+          "maximum": -35.78382864023593,
+          "minimum": -48.20022118218796
+        },
+        "clippedSamples": 0,
+        "firstAndLast100msPeakDbFS": -300,
+        "maximumClickBeatToNearestVideoFrameMs": 8.333333333333748,
+        "videoElementarySha256": "5044e5405570c24e826b8e1306b3dbe815ec2a53d33a5a476f9f304d8cd896aa",
+        "audioElementarySha256": "7794b62281bba2b339b637c70f7aec626a388adf7574eeca040dba725a1c133d",
+        "containerSha256": "b118cc956ac787afd040644a33b25454331c761a15fa292e7fa768c4cdd2583e",
+        "videoStreamReencoded": true,
+        "videoPresentationFrameTimesPreserved": true,
+        "audioPacketsAndTimingPreserved": true,
+        "decodedAudioSha256": "cd768994b40c3f1e113c95fddc6770d1bfed25d9dbf952e48b14c6ee857bfebd",
+        "decodedAudioBytes": 9601024,
+        "audioBitstreamPreserved": true,
+        "decodedAudioPreserved": true
+      }
+    },
+    {
+      "name": "hands-both.mp4 final AAC bitstream, packet timing and decoded waveform unchanged",
+      "pass": true,
+      "detail": {
+        "file": "hands-both.mp4",
+        "track": "both",
+        "pass": true,
+        "codec": "aac",
+        "sampleRate": 48000,
+        "channels": 2,
+        "requestedBitrate": 192000,
+        "measuredBitrate": 35042,
+        "duration": 25,
+        "sourceClickInstances": 112,
+        "decodedSamplesPerChannel": 1200128,
+        "sourceSamplesPerChannel": 1200000,
+        "decodedPaddingSamples": 128,
+        "primingCompensatedAlignmentSamples": 0,
+        "alignmentMs": 0,
+        "waveformCorrelation": 0.9998769537919447,
+        "codecSnrDb": 33.85214109364347,
+        "peakDbFS": -15.541915821437044,
+        "truePeakDbFS": -15.5,
+        "integratedLufs": -41.1,
+        "activeClick50msRmsDbFS": {
+          "median": -38.561481032595964,
+          "maximum": -33.80036731721287,
+          "minimum": -46.45683379218098
+        },
+        "clippedSamples": 0,
+        "firstAndLast100msPeakDbFS": -300,
+        "maximumClickBeatToNearestVideoFrameMs": 8.333333333333748,
+        "videoElementarySha256": "3e8ecb3aaa75221ed193ed323cf0f811456fdfc3472a6115bb7a56546b00cc06",
+        "audioElementarySha256": "25e16d79f9c30eb2c6e9c63f275c7a79ea9be4ba490c2b2080615419dec37387",
+        "containerSha256": "db390481826c7ffb47a80c267dc83edd2870f8ccd5fff418b55ce71c3e61b3bb",
+        "videoStreamReencoded": true,
+        "videoPresentationFrameTimesPreserved": true,
+        "audioPacketsAndTimingPreserved": true,
+        "decodedAudioSha256": "0409a1ddac0a1d4acbc2d608a7aff439bc5f41e57246dbedae461497342f9f62",
+        "decodedAudioBytes": 9601024,
+        "audioBitstreamPreserved": true,
+        "decodedAudioPreserved": true
+      }
+    },
+    {
+      "name": "hand-360-black-graphite.mp4 final AAC bitstream, packet timing and decoded waveform unchanged",
+      "pass": true,
+      "detail": {
+        "file": "hand-360-black-graphite.mp4",
+        "track": "orbit",
+        "pass": true,
+        "codec": "aac",
+        "sampleRate": 48000,
+        "channels": 2,
+        "requestedBitrate": 192000,
+        "measuredBitrate": 22685,
+        "duration": 40,
+        "sourceClickInstances": 56,
+        "decodedSamplesPerChannel": 1920000,
+        "sourceSamplesPerChannel": 1920000,
+        "decodedPaddingSamples": 0,
+        "primingCompensatedAlignmentSamples": 0,
+        "alignmentMs": 0,
+        "waveformCorrelation": 0.9998214583856726,
+        "codecSnrDb": 33.91669289414635,
+        "peakDbFS": -17.060226430698464,
+        "truePeakDbFS": -17,
+        "integratedLufs": -42.8,
+        "activeClick50msRmsDbFS": {
+          "median": -39.12027937226945,
+          "maximum": -34.900044904368755,
+          "minimum": -45.898591693697924
+        },
+        "clippedSamples": 0,
+        "firstAndLast100msPeakDbFS": -300,
+        "maximumClickBeatToNearestVideoFrameMs": 8.000000000002672,
+        "videoElementarySha256": "75d36e041c4c01e78508056af5aa90edf019ac28adf390dd3ae68d43661f2a94",
+        "audioElementarySha256": "eba4757881511782a08f48d0ef4f501f99a484d2043735164689983fafd346da",
+        "containerSha256": "385b89404949ab7016b58991bb717373ae46dd1c6bffea926ec7055295e766e9",
+        "videoStreamReencoded": true,
+        "videoPresentationFrameTimesPreserved": true,
+        "audioPacketsAndTimingPreserved": true,
+        "decodedAudioSha256": "bf9f748a461e497987096c4f4571b4c42409d05439004481b7f91f6dcbfd7b7a",
+        "decodedAudioBytes": 15360000,
+        "audioBitstreamPreserved": true,
+        "decodedAudioPreserved": true
+      }
+    },
+    {
+      "name": "hand-360-black-colours.mp4 final AAC bitstream, packet timing and decoded waveform unchanged",
+      "pass": true,
+      "detail": {
+        "file": "hand-360-black-colours.mp4",
+        "track": "orbit",
+        "pass": true,
+        "codec": "aac",
+        "sampleRate": 48000,
+        "channels": 2,
+        "requestedBitrate": 192000,
+        "measuredBitrate": 22685,
+        "duration": 40,
+        "sourceClickInstances": 56,
+        "decodedSamplesPerChannel": 1920000,
+        "sourceSamplesPerChannel": 1920000,
+        "decodedPaddingSamples": 0,
+        "primingCompensatedAlignmentSamples": 0,
+        "alignmentMs": 0,
+        "waveformCorrelation": 0.9998214583856726,
+        "codecSnrDb": 33.91669289414635,
+        "peakDbFS": -17.060226430698464,
+        "truePeakDbFS": -17,
+        "integratedLufs": -42.8,
+        "activeClick50msRmsDbFS": {
+          "median": -39.12027937226945,
+          "maximum": -34.900044904368755,
+          "minimum": -45.898591693697924
+        },
+        "clippedSamples": 0,
+        "firstAndLast100msPeakDbFS": -300,
+        "maximumClickBeatToNearestVideoFrameMs": 8.000000000002672,
+        "videoElementarySha256": "c706af8152ade9ed066da34ab352a96d50045a04bafa8adca5eee141261ad8f3",
+        "audioElementarySha256": "eba4757881511782a08f48d0ef4f501f99a484d2043735164689983fafd346da",
+        "containerSha256": "f37086690f1ae33d28f045240ed8be00f536e9dafefdfab6588db184f91a0264",
+        "videoStreamReencoded": true,
+        "videoPresentationFrameTimesPreserved": true,
+        "audioPacketsAndTimingPreserved": true,
+        "decodedAudioSha256": "bf9f748a461e497987096c4f4571b4c42409d05439004481b7f91f6dcbfd7b7a",
+        "decodedAudioBytes": 15360000,
+        "audioBitstreamPreserved": true,
+        "decodedAudioPreserved": true
+      }
+    },
+    {
+      "name": "hand-360-white-colours.mp4 final AAC bitstream, packet timing and decoded waveform unchanged",
+      "pass": true,
+      "detail": {
+        "file": "hand-360-white-colours.mp4",
+        "track": "orbit",
+        "pass": true,
+        "codec": "aac",
+        "sampleRate": 48000,
+        "channels": 2,
+        "requestedBitrate": 192000,
+        "measuredBitrate": 22685,
+        "duration": 40,
+        "sourceClickInstances": 56,
+        "decodedSamplesPerChannel": 1920000,
+        "sourceSamplesPerChannel": 1920000,
+        "decodedPaddingSamples": 0,
+        "primingCompensatedAlignmentSamples": 0,
+        "alignmentMs": 0,
+        "waveformCorrelation": 0.9998214583856726,
+        "codecSnrDb": 33.91669289414635,
+        "peakDbFS": -17.060226430698464,
+        "truePeakDbFS": -17,
+        "integratedLufs": -42.8,
+        "activeClick50msRmsDbFS": {
+          "median": -39.12027937226945,
+          "maximum": -34.900044904368755,
+          "minimum": -45.898591693697924
+        },
+        "clippedSamples": 0,
+        "firstAndLast100msPeakDbFS": -300,
+        "maximumClickBeatToNearestVideoFrameMs": 8.000000000002672,
+        "videoElementarySha256": "8f472aaab72bbcde02a525943f9d91d44d58a553e25a68b7a0195e221a660610",
+        "audioElementarySha256": "eba4757881511782a08f48d0ef4f501f99a484d2043735164689983fafd346da",
+        "containerSha256": "714d9d9beaa101f79b9a912f19c6bec3a0be727b4ea86db35745d35be38f0a62",
+        "videoStreamReencoded": true,
+        "videoPresentationFrameTimesPreserved": true,
+        "audioPacketsAndTimingPreserved": true,
+        "decodedAudioSha256": "bf9f748a461e497987096c4f4571b4c42409d05439004481b7f91f6dcbfd7b7a",
+        "decodedAudioBytes": 15360000,
+        "audioBitstreamPreserved": true,
+        "decodedAudioPreserved": true
+      }
+    },
+    {
+      "name": "All three final 360 variants share identical AAC audio",
+      "pass": true
+    },
+    {
+      "name": "No clipped samples or loop-boundary thump in final copied AAC",
+      "pass": true
+    },
+    {
+      "name": "All 60 final decoded critical pose and angle frames contain source surfaces",
+      "pass": true
+    },
+    {
+      "name": "All sampled final white-variant margins are white",
+      "pass": true
+    },
+    {
+      "name": "Final posters, captions, fine source edges and all six contact sheets inspected",
+      "pass": true
+    }
+  ],
+  "contactSheets": [
+    "hands-right-contact.jpg",
+    "hands-left-contact.jpg",
+    "hands-both-contact.jpg",
+    "hand-360-black-graphite-contact.jpg",
+    "hand-360-black-colours-contact.jpg",
+    "hand-360-white-colours-contact.jpg"
+  ],
+  "visualInspection": {
+    "pass": true,
+    "reviewers": [
+      "root",
+      "optimized_qa",
+      "visual_finish"
+    ],
+    "inspectedContactSheets": [
+      "hands-right-contact.jpg",
+      "hands-left-contact.jpg",
+      "hands-both-contact.jpg",
+      "hand-360-black-graphite-contact.jpg",
+      "hand-360-black-colours-contact.jpg",
+      "hand-360-white-colours-contact.jpg"
+    ],
+    "inspectedPosters": [
+      "hands-right.jpg",
+      "hands-left.jpg",
+      "hands-both.jpg",
+      "hand-360-black-graphite.jpg",
+      "hand-360-black-colours.jpg",
+      "hand-360-white-colours.jpg"
+    ],
+    "decodedFrameSamples": 60,
+    "notes": [
+      "All six CRF16 contact sheets and posters inspected; the 60 decoded samples include thumb fold, both ripple handoffs, wrist motion, combined finale and all orbit quadrants.",
+      "Graphite source edges, both-hand readability, original colours, white background and captions passed.",
+      "Root separately inspected CAD and captions at 100% scale; visual_finish independently approved final contacts and the both-hand/white source-colour variants."
+    ]
+  },
+  "audio": {
+    "schema": 1,
+    "timelineRevision": "hands-review-3-continuous-ripple",
+    "timelineSha256": "dc76b070892c36c222efe55dd1421c85bb39a57c42e2aaf7ff8cfa0375f31ade",
+    "design": "Deterministic dry plastic contact accents: softly filtered noise, three short nonharmonic body resonances, restrained secondary response, gentler release accents and subtle stereo placement. No music, speech or continuous background sound.",
+    "synchronization": "Beats at local peaks of actual locked source-pose channel velocity, merged for synchronous multi-finger motion. Softer release accents and sparse wrist-motion beats. These are authored sound accents, not measured mechanical contact events.",
+    "sourceEventPeriodSeconds": 0.005,
+    "orbitRetimeFactor": 1.6,
+    "preview": "work/video-export/audio/preview-plastic-clicks.wav",
+    "designProof": "work/video-export/audio/audio-design.json",
+    "remuxProof": "work/video-export/audio/audio-remux.json",
+    "auditionPerformed": false,
+    "auditionNote": "Measured signal levels, spectrum, source-event timing and decoded AAC alignment were verified. No subjective listening claim is made.",
+    "sourcePeakDbFS": {
+      "right": -17,
+      "left": -17,
+      "both": -15.5,
+      "orbit": -17
+    },
+    "energyAbove4kHzPercent": {
+      "right": 1.023657859351558,
+      "left": 1.1115045058955528,
+      "both": 0.8553773733728802,
+      "orbit": 1.0248376475691865
+    },
+    "checks": [
+      {
+        "name": "hands-right.mp4 final AAC bitstream, packet timing and decoded waveform unchanged",
+        "pass": true,
+        "detail": {
+          "file": "hands-right.mp4",
+          "track": "right",
+          "pass": true,
+          "codec": "aac",
+          "sampleRate": 48000,
+          "channels": 2,
+          "requestedBitrate": 192000,
+          "measuredBitrate": 34814,
+          "duration": 25,
+          "sourceClickInstances": 56,
+          "decodedSamplesPerChannel": 1200128,
+          "sourceSamplesPerChannel": 1200000,
+          "decodedPaddingSamples": 128,
+          "primingCompensatedAlignmentSamples": 0,
+          "alignmentMs": 0,
+          "waveformCorrelation": 0.9998701074617203,
+          "codecSnrDb": 33.820304658636346,
+          "peakDbFS": -17.02812712503589,
+          "truePeakDbFS": -17,
+          "integratedLufs": -42.5,
+          "activeClick50msRmsDbFS": {
+            "median": -39.8670378878183,
+            "maximum": -35.58835541741564,
+            "minimum": -46.628616180124915
+          },
+          "clippedSamples": 0,
+          "firstAndLast100msPeakDbFS": -300,
+          "maximumClickBeatToNearestVideoFrameMs": 8.333333333333748,
+          "videoElementarySha256": "7cec697f3b7a3371fdd12b1200ef33f08f230358796919fffb1afc21399159bf",
+          "audioElementarySha256": "451fac967b69eddaa81ac06b3ffa0ab70ac5405d612fad0ce74e3444d57e5ef3",
+          "containerSha256": "e58ac2746ccb22aad2c57b2b3ae6b004b3c53e9a5ef3516ff36c5d8f32ef3dcb",
+          "videoStreamReencoded": true,
+          "videoPresentationFrameTimesPreserved": true,
+          "audioPacketsAndTimingPreserved": true,
+          "decodedAudioSha256": "882ebc42d5afb6b9933e8460e1edf98b5279ad39d2f5206a55fd30d97117a1af",
+          "decodedAudioBytes": 9601024,
+          "audioBitstreamPreserved": true,
+          "decodedAudioPreserved": true
+        }
+      },
+      {
+        "name": "hands-left.mp4 final AAC bitstream, packet timing and decoded waveform unchanged",
+        "pass": true,
+        "detail": {
+          "file": "hands-left.mp4",
+          "track": "left",
+          "pass": true,
+          "codec": "aac",
+          "sampleRate": 48000,
+          "channels": 2,
+          "requestedBitrate": 192000,
+          "measuredBitrate": 35060,
+          "duration": 25,
+          "sourceClickInstances": 56,
+          "decodedSamplesPerChannel": 1200128,
+          "sourceSamplesPerChannel": 1200000,
+          "decodedPaddingSamples": 128,
+          "primingCompensatedAlignmentSamples": 0,
+          "alignmentMs": 0,
+          "waveformCorrelation": 0.9998674716368336,
+          "codecSnrDb": 33.37732033780351,
+          "peakDbFS": -17.028737538515635,
+          "truePeakDbFS": -17,
+          "integratedLufs": -43.4,
+          "activeClick50msRmsDbFS": {
+            "median": -40.250057401118696,
+            "maximum": -35.78382864023593,
+            "minimum": -48.20022118218796
+          },
+          "clippedSamples": 0,
+          "firstAndLast100msPeakDbFS": -300,
+          "maximumClickBeatToNearestVideoFrameMs": 8.333333333333748,
+          "videoElementarySha256": "5044e5405570c24e826b8e1306b3dbe815ec2a53d33a5a476f9f304d8cd896aa",
+          "audioElementarySha256": "7794b62281bba2b339b637c70f7aec626a388adf7574eeca040dba725a1c133d",
+          "containerSha256": "b118cc956ac787afd040644a33b25454331c761a15fa292e7fa768c4cdd2583e",
+          "videoStreamReencoded": true,
+          "videoPresentationFrameTimesPreserved": true,
+          "audioPacketsAndTimingPreserved": true,
+          "decodedAudioSha256": "cd768994b40c3f1e113c95fddc6770d1bfed25d9dbf952e48b14c6ee857bfebd",
+          "decodedAudioBytes": 9601024,
+          "audioBitstreamPreserved": true,
+          "decodedAudioPreserved": true
+        }
+      },
+      {
+        "name": "hands-both.mp4 final AAC bitstream, packet timing and decoded waveform unchanged",
+        "pass": true,
+        "detail": {
+          "file": "hands-both.mp4",
+          "track": "both",
+          "pass": true,
+          "codec": "aac",
+          "sampleRate": 48000,
+          "channels": 2,
+          "requestedBitrate": 192000,
+          "measuredBitrate": 35042,
+          "duration": 25,
+          "sourceClickInstances": 112,
+          "decodedSamplesPerChannel": 1200128,
+          "sourceSamplesPerChannel": 1200000,
+          "decodedPaddingSamples": 128,
+          "primingCompensatedAlignmentSamples": 0,
+          "alignmentMs": 0,
+          "waveformCorrelation": 0.9998769537919447,
+          "codecSnrDb": 33.85214109364347,
+          "peakDbFS": -15.541915821437044,
+          "truePeakDbFS": -15.5,
+          "integratedLufs": -41.1,
+          "activeClick50msRmsDbFS": {
+            "median": -38.561481032595964,
+            "maximum": -33.80036731721287,
+            "minimum": -46.45683379218098
+          },
+          "clippedSamples": 0,
+          "firstAndLast100msPeakDbFS": -300,
+          "maximumClickBeatToNearestVideoFrameMs": 8.333333333333748,
+          "videoElementarySha256": "3e8ecb3aaa75221ed193ed323cf0f811456fdfc3472a6115bb7a56546b00cc06",
+          "audioElementarySha256": "25e16d79f9c30eb2c6e9c63f275c7a79ea9be4ba490c2b2080615419dec37387",
+          "containerSha256": "db390481826c7ffb47a80c267dc83edd2870f8ccd5fff418b55ce71c3e61b3bb",
+          "videoStreamReencoded": true,
+          "videoPresentationFrameTimesPreserved": true,
+          "audioPacketsAndTimingPreserved": true,
+          "decodedAudioSha256": "0409a1ddac0a1d4acbc2d608a7aff439bc5f41e57246dbedae461497342f9f62",
+          "decodedAudioBytes": 9601024,
+          "audioBitstreamPreserved": true,
+          "decodedAudioPreserved": true
+        }
+      },
+      {
+        "name": "hand-360-black-graphite.mp4 final AAC bitstream, packet timing and decoded waveform unchanged",
+        "pass": true,
+        "detail": {
+          "file": "hand-360-black-graphite.mp4",
+          "track": "orbit",
+          "pass": true,
+          "codec": "aac",
+          "sampleRate": 48000,
+          "channels": 2,
+          "requestedBitrate": 192000,
+          "measuredBitrate": 22685,
+          "duration": 40,
+          "sourceClickInstances": 56,
+          "decodedSamplesPerChannel": 1920000,
+          "sourceSamplesPerChannel": 1920000,
+          "decodedPaddingSamples": 0,
+          "primingCompensatedAlignmentSamples": 0,
+          "alignmentMs": 0,
+          "waveformCorrelation": 0.9998214583856726,
+          "codecSnrDb": 33.91669289414635,
+          "peakDbFS": -17.060226430698464,
+          "truePeakDbFS": -17,
+          "integratedLufs": -42.8,
+          "activeClick50msRmsDbFS": {
+            "median": -39.12027937226945,
+            "maximum": -34.900044904368755,
+            "minimum": -45.898591693697924
+          },
+          "clippedSamples": 0,
+          "firstAndLast100msPeakDbFS": -300,
+          "maximumClickBeatToNearestVideoFrameMs": 8.000000000002672,
+          "videoElementarySha256": "75d36e041c4c01e78508056af5aa90edf019ac28adf390dd3ae68d43661f2a94",
+          "audioElementarySha256": "eba4757881511782a08f48d0ef4f501f99a484d2043735164689983fafd346da",
+          "containerSha256": "385b89404949ab7016b58991bb717373ae46dd1c6bffea926ec7055295e766e9",
+          "videoStreamReencoded": true,
+          "videoPresentationFrameTimesPreserved": true,
+          "audioPacketsAndTimingPreserved": true,
+          "decodedAudioSha256": "bf9f748a461e497987096c4f4571b4c42409d05439004481b7f91f6dcbfd7b7a",
+          "decodedAudioBytes": 15360000,
+          "audioBitstreamPreserved": true,
+          "decodedAudioPreserved": true
+        }
+      },
+      {
+        "name": "hand-360-black-colours.mp4 final AAC bitstream, packet timing and decoded waveform unchanged",
+        "pass": true,
+        "detail": {
+          "file": "hand-360-black-colours.mp4",
+          "track": "orbit",
+          "pass": true,
+          "codec": "aac",
+          "sampleRate": 48000,
+          "channels": 2,
+          "requestedBitrate": 192000,
+          "measuredBitrate": 22685,
+          "duration": 40,
+          "sourceClickInstances": 56,
+          "decodedSamplesPerChannel": 1920000,
+          "sourceSamplesPerChannel": 1920000,
+          "decodedPaddingSamples": 0,
+          "primingCompensatedAlignmentSamples": 0,
+          "alignmentMs": 0,
+          "waveformCorrelation": 0.9998214583856726,
+          "codecSnrDb": 33.91669289414635,
+          "peakDbFS": -17.060226430698464,
+          "truePeakDbFS": -17,
+          "integratedLufs": -42.8,
+          "activeClick50msRmsDbFS": {
+            "median": -39.12027937226945,
+            "maximum": -34.900044904368755,
+            "minimum": -45.898591693697924
+          },
+          "clippedSamples": 0,
+          "firstAndLast100msPeakDbFS": -300,
+          "maximumClickBeatToNearestVideoFrameMs": 8.000000000002672,
+          "videoElementarySha256": "c706af8152ade9ed066da34ab352a96d50045a04bafa8adca5eee141261ad8f3",
+          "audioElementarySha256": "eba4757881511782a08f48d0ef4f501f99a484d2043735164689983fafd346da",
+          "containerSha256": "f37086690f1ae33d28f045240ed8be00f536e9dafefdfab6588db184f91a0264",
+          "videoStreamReencoded": true,
+          "videoPresentationFrameTimesPreserved": true,
+          "audioPacketsAndTimingPreserved": true,
+          "decodedAudioSha256": "bf9f748a461e497987096c4f4571b4c42409d05439004481b7f91f6dcbfd7b7a",
+          "decodedAudioBytes": 15360000,
+          "audioBitstreamPreserved": true,
+          "decodedAudioPreserved": true
+        }
+      },
+      {
+        "name": "hand-360-white-colours.mp4 final AAC bitstream, packet timing and decoded waveform unchanged",
+        "pass": true,
+        "detail": {
+          "file": "hand-360-white-colours.mp4",
+          "track": "orbit",
+          "pass": true,
+          "codec": "aac",
+          "sampleRate": 48000,
+          "channels": 2,
+          "requestedBitrate": 192000,
+          "measuredBitrate": 22685,
+          "duration": 40,
+          "sourceClickInstances": 56,
+          "decodedSamplesPerChannel": 1920000,
+          "sourceSamplesPerChannel": 1920000,
+          "decodedPaddingSamples": 0,
+          "primingCompensatedAlignmentSamples": 0,
+          "alignmentMs": 0,
+          "waveformCorrelation": 0.9998214583856726,
+          "codecSnrDb": 33.91669289414635,
+          "peakDbFS": -17.060226430698464,
+          "truePeakDbFS": -17,
+          "integratedLufs": -42.8,
+          "activeClick50msRmsDbFS": {
+            "median": -39.12027937226945,
+            "maximum": -34.900044904368755,
+            "minimum": -45.898591693697924
+          },
+          "clippedSamples": 0,
+          "firstAndLast100msPeakDbFS": -300,
+          "maximumClickBeatToNearestVideoFrameMs": 8.000000000002672,
+          "videoElementarySha256": "8f472aaab72bbcde02a525943f9d91d44d58a553e25a68b7a0195e221a660610",
+          "audioElementarySha256": "eba4757881511782a08f48d0ef4f501f99a484d2043735164689983fafd346da",
+          "containerSha256": "714d9d9beaa101f79b9a912f19c6bec3a0be727b4ea86db35745d35be38f0a62",
+          "videoStreamReencoded": true,
+          "videoPresentationFrameTimesPreserved": true,
+          "audioPacketsAndTimingPreserved": true,
+          "decodedAudioSha256": "bf9f748a461e497987096c4f4571b4c42409d05439004481b7f91f6dcbfd7b7a",
+          "decodedAudioBytes": 15360000,
+          "audioBitstreamPreserved": true,
+          "decodedAudioPreserved": true
+        }
+      },
+      {
+        "name": "All three final 360 variants share identical AAC audio",
+        "pass": true
+      },
+      {
+        "name": "No clipped samples or loop-boundary thump in final copied AAC",
+        "pass": true
+      }
+    ],
+    "clips": [
+      {
+        "file": "hands-right.mp4",
+        "track": "right",
+        "pass": true,
+        "codec": "aac",
+        "sampleRate": 48000,
+        "channels": 2,
+        "requestedBitrate": 192000,
+        "measuredBitrate": 34814,
+        "duration": 25,
+        "sourceClickInstances": 56,
+        "decodedSamplesPerChannel": 1200128,
+        "sourceSamplesPerChannel": 1200000,
+        "decodedPaddingSamples": 128,
+        "primingCompensatedAlignmentSamples": 0,
+        "alignmentMs": 0,
+        "waveformCorrelation": 0.9998701074617203,
+        "codecSnrDb": 33.820304658636346,
+        "peakDbFS": -17.02812712503589,
+        "truePeakDbFS": -17,
+        "integratedLufs": -42.5,
+        "activeClick50msRmsDbFS": {
+          "median": -39.8670378878183,
+          "maximum": -35.58835541741564,
+          "minimum": -46.628616180124915
+        },
+        "clippedSamples": 0,
+        "firstAndLast100msPeakDbFS": -300,
+        "maximumClickBeatToNearestVideoFrameMs": 8.333333333333748,
+        "videoElementarySha256": "7cec697f3b7a3371fdd12b1200ef33f08f230358796919fffb1afc21399159bf",
+        "audioElementarySha256": "451fac967b69eddaa81ac06b3ffa0ab70ac5405d612fad0ce74e3444d57e5ef3",
+        "containerSha256": "e58ac2746ccb22aad2c57b2b3ae6b004b3c53e9a5ef3516ff36c5d8f32ef3dcb",
+        "videoStreamReencoded": true,
+        "videoPresentationFrameTimesPreserved": true,
+        "audioPacketsAndTimingPreserved": true,
+        "decodedAudioSha256": "882ebc42d5afb6b9933e8460e1edf98b5279ad39d2f5206a55fd30d97117a1af",
+        "decodedAudioBytes": 9601024,
+        "audioBitstreamPreserved": true,
+        "decodedAudioPreserved": true
+      },
+      {
+        "file": "hands-left.mp4",
+        "track": "left",
+        "pass": true,
+        "codec": "aac",
+        "sampleRate": 48000,
+        "channels": 2,
+        "requestedBitrate": 192000,
+        "measuredBitrate": 35060,
+        "duration": 25,
+        "sourceClickInstances": 56,
+        "decodedSamplesPerChannel": 1200128,
+        "sourceSamplesPerChannel": 1200000,
+        "decodedPaddingSamples": 128,
+        "primingCompensatedAlignmentSamples": 0,
+        "alignmentMs": 0,
+        "waveformCorrelation": 0.9998674716368336,
+        "codecSnrDb": 33.37732033780351,
+        "peakDbFS": -17.028737538515635,
+        "truePeakDbFS": -17,
+        "integratedLufs": -43.4,
+        "activeClick50msRmsDbFS": {
+          "median": -40.250057401118696,
+          "maximum": -35.78382864023593,
+          "minimum": -48.20022118218796
+        },
+        "clippedSamples": 0,
+        "firstAndLast100msPeakDbFS": -300,
+        "maximumClickBeatToNearestVideoFrameMs": 8.333333333333748,
+        "videoElementarySha256": "5044e5405570c24e826b8e1306b3dbe815ec2a53d33a5a476f9f304d8cd896aa",
+        "audioElementarySha256": "7794b62281bba2b339b637c70f7aec626a388adf7574eeca040dba725a1c133d",
+        "containerSha256": "b118cc956ac787afd040644a33b25454331c761a15fa292e7fa768c4cdd2583e",
+        "videoStreamReencoded": true,
+        "videoPresentationFrameTimesPreserved": true,
+        "audioPacketsAndTimingPreserved": true,
+        "decodedAudioSha256": "cd768994b40c3f1e113c95fddc6770d1bfed25d9dbf952e48b14c6ee857bfebd",
+        "decodedAudioBytes": 9601024,
+        "audioBitstreamPreserved": true,
+        "decodedAudioPreserved": true
+      },
+      {
+        "file": "hand-360-black-graphite.mp4",
+        "track": "orbit",
+        "pass": true,
+        "codec": "aac",
+        "sampleRate": 48000,
+        "channels": 2,
+        "requestedBitrate": 192000,
+        "measuredBitrate": 22685,
+        "duration": 40,
+        "sourceClickInstances": 56,
+        "decodedSamplesPerChannel": 1920000,
+        "sourceSamplesPerChannel": 1920000,
+        "decodedPaddingSamples": 0,
+        "primingCompensatedAlignmentSamples": 0,
+        "alignmentMs": 0,
+        "waveformCorrelation": 0.9998214583856726,
+        "codecSnrDb": 33.91669289414635,
+        "peakDbFS": -17.060226430698464,
+        "truePeakDbFS": -17,
+        "integratedLufs": -42.8,
+        "activeClick50msRmsDbFS": {
+          "median": -39.12027937226945,
+          "maximum": -34.900044904368755,
+          "minimum": -45.898591693697924
+        },
+        "clippedSamples": 0,
+        "firstAndLast100msPeakDbFS": -300,
+        "maximumClickBeatToNearestVideoFrameMs": 8.000000000002672,
+        "videoElementarySha256": "75d36e041c4c01e78508056af5aa90edf019ac28adf390dd3ae68d43661f2a94",
+        "audioElementarySha256": "eba4757881511782a08f48d0ef4f501f99a484d2043735164689983fafd346da",
+        "containerSha256": "385b89404949ab7016b58991bb717373ae46dd1c6bffea926ec7055295e766e9",
+        "videoStreamReencoded": true,
+        "videoPresentationFrameTimesPreserved": true,
+        "audioPacketsAndTimingPreserved": true,
+        "decodedAudioSha256": "bf9f748a461e497987096c4f4571b4c42409d05439004481b7f91f6dcbfd7b7a",
+        "decodedAudioBytes": 15360000,
+        "audioBitstreamPreserved": true,
+        "decodedAudioPreserved": true
+      },
+      {
+        "file": "hand-360-black-colours.mp4",
+        "track": "orbit",
+        "pass": true,
+        "codec": "aac",
+        "sampleRate": 48000,
+        "channels": 2,
+        "requestedBitrate": 192000,
+        "measuredBitrate": 22685,
+        "duration": 40,
+        "sourceClickInstances": 56,
+        "decodedSamplesPerChannel": 1920000,
+        "sourceSamplesPerChannel": 1920000,
+        "decodedPaddingSamples": 0,
+        "primingCompensatedAlignmentSamples": 0,
+        "alignmentMs": 0,
+        "waveformCorrelation": 0.9998214583856726,
+        "codecSnrDb": 33.91669289414635,
+        "peakDbFS": -17.060226430698464,
+        "truePeakDbFS": -17,
+        "integratedLufs": -42.8,
+        "activeClick50msRmsDbFS": {
+          "median": -39.12027937226945,
+          "maximum": -34.900044904368755,
+          "minimum": -45.898591693697924
+        },
+        "clippedSamples": 0,
+        "firstAndLast100msPeakDbFS": -300,
+        "maximumClickBeatToNearestVideoFrameMs": 8.000000000002672,
+        "videoElementarySha256": "c706af8152ade9ed066da34ab352a96d50045a04bafa8adca5eee141261ad8f3",
+        "audioElementarySha256": "eba4757881511782a08f48d0ef4f501f99a484d2043735164689983fafd346da",
+        "containerSha256": "f37086690f1ae33d28f045240ed8be00f536e9dafefdfab6588db184f91a0264",
+        "videoStreamReencoded": true,
+        "videoPresentationFrameTimesPreserved": true,
+        "audioPacketsAndTimingPreserved": true,
+        "decodedAudioSha256": "bf9f748a461e497987096c4f4571b4c42409d05439004481b7f91f6dcbfd7b7a",
+        "decodedAudioBytes": 15360000,
+        "audioBitstreamPreserved": true,
+        "decodedAudioPreserved": true
+      },
+      {
+        "file": "hand-360-white-colours.mp4",
+        "track": "orbit",
+        "pass": true,
+        "codec": "aac",
+        "sampleRate": 48000,
+        "channels": 2,
+        "requestedBitrate": 192000,
+        "measuredBitrate": 22685,
+        "duration": 40,
+        "sourceClickInstances": 56,
+        "decodedSamplesPerChannel": 1920000,
+        "sourceSamplesPerChannel": 1920000,
+        "decodedPaddingSamples": 0,
+        "primingCompensatedAlignmentSamples": 0,
+        "alignmentMs": 0,
+        "waveformCorrelation": 0.9998214583856726,
+        "codecSnrDb": 33.91669289414635,
+        "peakDbFS": -17.060226430698464,
+        "truePeakDbFS": -17,
+        "integratedLufs": -42.8,
+        "activeClick50msRmsDbFS": {
+          "median": -39.12027937226945,
+          "maximum": -34.900044904368755,
+          "minimum": -45.898591693697924
+        },
+        "clippedSamples": 0,
+        "firstAndLast100msPeakDbFS": -300,
+        "maximumClickBeatToNearestVideoFrameMs": 8.000000000002672,
+        "videoElementarySha256": "8f472aaab72bbcde02a525943f9d91d44d58a553e25a68b7a0195e221a660610",
+        "audioElementarySha256": "eba4757881511782a08f48d0ef4f501f99a484d2043735164689983fafd346da",
+        "containerSha256": "714d9d9beaa101f79b9a912f19c6bec3a0be727b4ea86db35745d35be38f0a62",
+        "videoStreamReencoded": true,
+        "videoPresentationFrameTimesPreserved": true,
+        "audioPacketsAndTimingPreserved": true,
+        "decodedAudioSha256": "bf9f748a461e497987096c4f4571b4c42409d05439004481b7f91f6dcbfd7b7a",
+        "decodedAudioBytes": 15360000,
+        "audioBitstreamPreserved": true,
+        "decodedAudioPreserved": true
+      },
+      {
+        "file": "hands-both.mp4",
+        "track": "both",
+        "pass": true,
+        "codec": "aac",
+        "sampleRate": 48000,
+        "channels": 2,
+        "requestedBitrate": 192000,
+        "measuredBitrate": 35042,
+        "duration": 25,
+        "sourceClickInstances": 112,
+        "decodedSamplesPerChannel": 1200128,
+        "sourceSamplesPerChannel": 1200000,
+        "decodedPaddingSamples": 128,
+        "primingCompensatedAlignmentSamples": 0,
+        "alignmentMs": 0,
+        "waveformCorrelation": 0.9998769537919447,
+        "codecSnrDb": 33.85214109364347,
+        "peakDbFS": -15.541915821437044,
+        "truePeakDbFS": -15.5,
+        "integratedLufs": -41.1,
+        "activeClick50msRmsDbFS": {
+          "median": -38.561481032595964,
+          "maximum": -33.80036731721287,
+          "minimum": -46.45683379218098
+        },
+        "clippedSamples": 0,
+        "firstAndLast100msPeakDbFS": -300,
+        "maximumClickBeatToNearestVideoFrameMs": 8.333333333333748,
+        "videoElementarySha256": "3e8ecb3aaa75221ed193ed323cf0f811456fdfc3472a6115bb7a56546b00cc06",
+        "audioElementarySha256": "25e16d79f9c30eb2c6e9c63f275c7a79ea9be4ba490c2b2080615419dec37387",
+        "containerSha256": "db390481826c7ffb47a80c267dc83edd2870f8ccd5fff418b55ce71c3e61b3bb",
+        "videoStreamReencoded": true,
+        "videoPresentationFrameTimesPreserved": true,
+        "audioPacketsAndTimingPreserved": true,
+        "decodedAudioSha256": "0409a1ddac0a1d4acbc2d608a7aff439bc5f41e57246dbedae461497342f9f62",
+        "decodedAudioBytes": 9601024,
+        "audioBitstreamPreserved": true,
+        "decodedAudioPreserved": true
+      }
+    ],
+    "pass": true,
+    "scope": "Final x264 CRF16 delivery. AAC packet payloads/timing and decoded PCM are byte-identical to the verified audio finals before video optimization.",
+    "history": {
+      "audioOnlyIntermediate": {
+        "scope": "Historical stage before final lossy video compression; H264 was copied unchanged when sound was added.",
+        "clips": [
+          {
+            "file": "hands-right.mp4",
+            "containerSha256": "320353121c60f691bf867eccb1963d4c86d66c9481a5d6e63a7fedc20560d8eb",
+            "videoElementarySha256": "175036df0210d1527f7796fcd37fb9ace4c83cbf77508e27b2a0285563e9f02c",
+            "videoBytesPreservedAtThisStage": true,
+            "videoPacketsPreservedAtThisStage": true
+          },
+          {
+            "file": "hands-left.mp4",
+            "containerSha256": "e085a0a93a51a7165f8ef6a328e3a6151541ce3dd35282aafb6c4a64882b23e3",
+            "videoElementarySha256": "80b37c9bbfc7c34d3ef53c1b1a90ab6048b16c4f7ca9aa327b8de6076a9448b9",
+            "videoBytesPreservedAtThisStage": true,
+            "videoPacketsPreservedAtThisStage": true
+          },
+          {
+            "file": "hands-both.mp4",
+            "containerSha256": "d3a2bbb8e01699deb83e014b86a3f244343a3b508cb5931f2f6169dac660f31e",
+            "videoElementarySha256": "7e42622f250baee528e974396839a963ca5241c9e3a9c50664c4d7678b66012d",
+            "videoBytesPreservedAtThisStage": true,
+            "videoPacketsPreservedAtThisStage": true
+          },
+          {
+            "file": "hand-360-black-graphite.mp4",
+            "containerSha256": "ed9076e19ba05ef048d7907cb503f7ed88975d6632adc14d9b751ea724e1c18a",
+            "videoElementarySha256": "74bf3e9610f7c6f6bed62ff81408b39cdf0465e61ec56db1640fe19f6bdf38dc",
+            "videoBytesPreservedAtThisStage": true,
+            "videoPacketsPreservedAtThisStage": true
+          },
+          {
+            "file": "hand-360-black-colours.mp4",
+            "containerSha256": "d9f75907ed8f1190dde83fa2c0c06839eb9f4e712f878be0fe64d401100fa2c6",
+            "videoElementarySha256": "b0c78d0421462cda3912391290ac68021fed2b798d8a2ca21c2f154ba5799bf2",
+            "videoBytesPreservedAtThisStage": true,
+            "videoPacketsPreservedAtThisStage": true
+          },
+          {
+            "file": "hand-360-white-colours.mp4",
+            "containerSha256": "c15a7f565d6f0044c11bf2d7c7b9389c0d51632997fd8f9677c2401c6604e33b",
+            "videoElementarySha256": "37778134ede54cc0075697ee0304d67f2360415a9f4053e45839fa9e4d86a6fd",
+            "videoBytesPreservedAtThisStage": true,
+            "videoPacketsPreservedAtThisStage": true
+          }
+        ]
+      }
+    },
+    "videoStreamReencoded": true,
+    "audioStreamReencoded": false
+  },
+  "compression": {
+    "verification": "compression-verification.json",
+    "lossy": true,
+    "encoder": "libx264",
+    "crf": 16,
+    "preset": "medium",
+    "totalBytes": 53730837,
+    "reductionPercent": 55.87829427699398
+  },
+  "history": {
+    "deterministicSourceRender": {
+      "scope": "Original source GPU export checks, before lossy video encoding. Pixel loop closure refers to the source canvas, not exact decoded compressed pixels.",
+      "checks": [
+        {
+          "name": "hands-right.mp4 H264 1080p/60 decoded frame count",
+          "pass": true,
+          "detail": {
+            "programs": [],
+            "stream_groups": [],
+            "streams": [
+              {
+                "codec_name": "h264",
+                "profile": "High",
+                "width": 1920,
+                "height": 1080,
+                "pix_fmt": "yuv420p",
+                "r_frame_rate": "60/1",
+                "avg_frame_rate": "60/1",
+                "duration": "25.000000",
+                "nb_read_frames": "1500"
+              }
+            ],
+            "format": {
+              "duration": "25.000000",
+              "size": "14159561"
+            }
+          }
+        },
+        {
+          "name": "hands-left.mp4 H264 1080p/60 decoded frame count",
+          "pass": true,
+          "detail": {
+            "programs": [],
+            "stream_groups": [],
+            "streams": [
+              {
+                "codec_name": "h264",
+                "profile": "High",
+                "width": 1920,
+                "height": 1080,
+                "pix_fmt": "yuv420p",
+                "r_frame_rate": "60/1",
+                "avg_frame_rate": "60/1",
+                "duration": "25.000000",
+                "nb_read_frames": "1500"
+              }
+            ],
+            "format": {
+              "duration": "25.000000",
+              "size": "13150846"
+            }
+          }
+        },
+        {
+          "name": "hands-both.mp4 H264 1080p/60 decoded frame count",
+          "pass": true,
+          "detail": {
+            "programs": [],
+            "stream_groups": [],
+            "streams": [
+              {
+                "codec_name": "h264",
+                "profile": "High",
+                "width": 1920,
+                "height": 1080,
+                "pix_fmt": "yuv420p",
+                "r_frame_rate": "60/1",
+                "avg_frame_rate": "60/1",
+                "duration": "25.000000",
+                "nb_read_frames": "1500"
+              }
+            ],
+            "format": {
+              "duration": "25.000000",
+              "size": "13758425"
+            }
+          }
+        },
+        {
+          "name": "hand-360-black-graphite.mp4 H264 1080p/60 decoded frame count",
+          "pass": true,
+          "detail": {
+            "programs": [],
+            "stream_groups": [],
+            "streams": [
+              {
+                "codec_name": "h264",
+                "profile": "High",
+                "width": 1920,
+                "height": 1080,
+                "pix_fmt": "yuv420p",
+                "r_frame_rate": "60/1",
+                "avg_frame_rate": "60/1",
+                "duration": "40.000000",
+                "nb_read_frames": "2400"
+              }
+            ],
+            "format": {
+              "duration": "40.000000",
+              "size": "25795761"
+            }
+          }
+        },
+        {
+          "name": "hand-360-black-colours.mp4 H264 1080p/60 decoded frame count",
+          "pass": true,
+          "detail": {
+            "programs": [],
+            "stream_groups": [],
+            "streams": [
+              {
+                "codec_name": "h264",
+                "profile": "High",
+                "width": 1920,
+                "height": 1080,
+                "pix_fmt": "yuv420p",
+                "r_frame_rate": "60/1",
+                "avg_frame_rate": "60/1",
+                "duration": "40.000000",
+                "nb_read_frames": "2400"
+              }
+            ],
+            "format": {
+              "duration": "40.000000",
+              "size": "26940985"
+            }
+          }
+        },
+        {
+          "name": "hand-360-white-colours.mp4 H264 1080p/60 decoded frame count",
+          "pass": true,
+          "detail": {
+            "programs": [],
+            "stream_groups": [],
+            "streams": [
+              {
+                "codec_name": "h264",
+                "profile": "High",
+                "width": 1920,
+                "height": 1080,
+                "pix_fmt": "yuv420p",
+                "r_frame_rate": "60/1",
+                "avg_frame_rate": "60/1",
+                "duration": "40.000000",
+                "nb_read_frames": "2400"
+              }
+            ],
+            "format": {
+              "duration": "40.000000",
+              "size": "27131829"
+            }
+          }
+        },
+        {
+          "name": "Initial 404 is only the browser favicon request",
+          "pass": true,
+          "detail": {
+            "exportErrors": [
+              "Failed to load resource: the server responded with a status of 404 (Not Found)"
+            ],
+            "serverFailures": []
+          }
+        },
+        {
+          "name": "hands-right exact neutral / full-turn source-pixel closure",
+          "pass": true,
+          "detail": {
+            "kind": "hands-right",
+            "start": {
+              "time": 0,
+              "kind": "hands-right",
+              "variant": "dark-technical",
+              "view": [
+                353.73666513462564,
+                346.2637542325334,
+                182.99214501201814,
+                80.67176035686067
+              ],
+              "bounds": [
+                423.5626165868971,
+                351.4127179727153,
+                461.2833796578334,
+                423.492047228621
+              ],
+              "crop": false,
+              "visibleCADSolids": 66,
+              "stage": "rest",
+              "orbit": {
+                "yaw": 0,
+                "pitch": 0
+              },
+              "drawCalls": 3
+            },
+            "end": {
+              "time": 25,
+              "kind": "hands-right",
+              "variant": "dark-technical",
+              "view": [
+                353.73666513462564,
+                346.2637542325334,
+                182.99214501201814,
+                80.67176035686067
+              ],
+              "bounds": [
+                423.5626165868971,
+                351.4127179727153,
+                461.2833796578334,
+                423.492047228621
+              ],
+              "crop": false,
+              "visibleCADSolids": 66,
+              "stage": "settle",
+              "orbit": {
+                "yaw": 0,
+                "pitch": 0
+              },
+              "drawCalls": 3
+            },
+            "first": "1fe977aa4e05a130f8c3b7123125c3948cab939794fa969cef6c37a6696894ea",
+            "last": "1fe977aa4e05a130f8c3b7123125c3948cab939794fa969cef6c37a6696894ea",
+            "equal": true
+          }
+        },
+        {
+          "name": "hands-left exact neutral / full-turn source-pixel closure",
+          "pass": true,
+          "detail": {
+            "kind": "hands-left",
+            "start": {
+              "time": 0,
+              "kind": "hands-left",
+              "variant": "dark-technical",
+              "view": [
+                526.3663214939777,
+                397.0676803796541,
+                185.69188035859645,
+                81.86193386344374
+              ],
+              "bounds": [
+                595.7696046253142,
+                402.1529591470135,
+                644.163906697577,
+                475.89769076667403
+              ],
+              "crop": false,
+              "visibleCADSolids": 66,
+              "stage": "rest",
+              "orbit": {
+                "yaw": 0,
+                "pitch": 0
+              },
+              "drawCalls": 3
+            },
+            "end": {
+              "time": 25,
+              "kind": "hands-left",
+              "variant": "dark-technical",
+              "view": [
+                526.3663214939777,
+                397.0676803796541,
+                185.69188035859645,
+                81.86193386344374
+              ],
+              "bounds": [
+                595.7696046253142,
+                402.1529591470135,
+                644.163906697577,
+                475.89769076667403
+              ],
+              "crop": false,
+              "visibleCADSolids": 66,
+              "stage": "settle",
+              "orbit": {
+                "yaw": 0,
+                "pitch": 0
+              },
+              "drawCalls": 3
+            },
+            "first": "fec4fe3de8d0b254a0d325e73f27de29b5b1694763342feccf79a16f3133aceb",
+            "last": "fec4fe3de8d0b254a0d325e73f27de29b5b1694763342feccf79a16f3133aceb",
+            "equal": true
+          }
+        },
+        {
+          "name": "hands-both exact neutral / full-turn source-pixel closure",
+          "pass": true,
+          "detail": {
+            "kind": "hands-both",
+            "start": {
+              "time": 0,
+              "kind": "hands-both",
+              "variant": "dark-technical",
+              "view": [
+                378.6066813707747,
+                344.185753466395,
+                310.260485605487,
+                136.7777810425975
+              ],
+              "bounds": [
+                423.5626165868971,
+                351.41271797271526,
+                644.163906697577,
+                475.89769076667403
+              ],
+              "crop": false,
+              "visibleCADSolids": 132,
+              "stage": "rest",
+              "orbit": {
+                "yaw": 0,
+                "pitch": 0
+              },
+              "drawCalls": 3
+            },
+            "end": {
+              "time": 25,
+              "kind": "hands-both",
+              "variant": "dark-technical",
+              "view": [
+                378.6066813707747,
+                344.185753466395,
+                310.260485605487,
+                136.7777810425975
+              ],
+              "bounds": [
+                423.5626165868971,
+                351.41271797271526,
+                644.163906697577,
+                475.89769076667403
+              ],
+              "crop": false,
+              "visibleCADSolids": 132,
+              "stage": "settle",
+              "orbit": {
+                "yaw": 0,
+                "pitch": 0
+              },
+              "drawCalls": 3
+            },
+            "first": "4a3d74653b24fae5840608dd7cda492f45f8ad66ca2377e62391af9a3f0347b0",
+            "last": "4a3d74653b24fae5840608dd7cda492f45f8ad66ca2377e62391af9a3f0347b0",
+            "equal": true
+          }
+        },
+        {
+          "name": "hand-orbit exact neutral / full-turn source-pixel closure",
+          "pass": true,
+          "detail": {
+            "kind": "hand-orbit",
+            "start": {
+              "time": 0,
+              "kind": "hand-orbit",
+              "variant": "dark-technical",
+              "view": [
+                349.7644831846759,
+                343.0400156286398,
+                196.71267793904443,
+                86.72043279678856
+              ],
+              "bounds": [
+                423.5626165868971,
+                351.4127179727153,
+                461.2833796578334,
+                423.492047228621
+              ],
+              "crop": false,
+              "visibleCADSolids": 66,
+              "stage": "rest",
+              "orbit": {
+                "yaw": 0,
+                "pitch": 0
+              },
+              "drawCalls": 3
+            },
+            "end": {
+              "time": 40,
+              "kind": "hand-orbit",
+              "variant": "dark-technical",
+              "view": [
+                349.7644831846759,
+                343.0400156286398,
+                196.71267793904443,
+                86.72043279678856
+              ],
+              "bounds": [
+                423.5626165868971,
+                351.4127179727153,
+                461.2833796578334,
+                423.492047228621
+              ],
+              "crop": false,
+              "visibleCADSolids": 66,
+              "stage": "settle",
+              "orbit": {
+                "yaw": 360,
+                "pitch": 0
+              },
+              "drawCalls": 3
+            },
+            "first": "bf7fcbb66e1af378b4a899cf884bfe4bda169608ffe61b8ee261b8e9e015c028",
+            "last": "bf7fcbb66e1af378b4a899cf884bfe4bda169608ffe61b8ee261b8e9e015c028",
+            "equal": true
+          }
+        },
+        {
+          "name": "White variant has actual white page and drawing background",
+          "pass": true,
+          "detail": {
+            "corner": [
+              255,
+              255,
+              255,
+              255
+            ],
+            "stageCorner": [
+              255,
+              255,
+              255,
+              255
+            ]
+          }
+        },
+        {
+          "name": "All three 360 variants share a fixed union camera",
+          "pass": true,
+          "detail": [
+            "[349.7644831846759,343.0400156286398,196.71267793904443,86.72043279678856]",
+            "[349.7644831846759,343.0400156286398,196.71267793904443,86.72043279678856]",
+            "[349.7644831846759,343.0400156286398,196.71267793904443,86.72043279678856]"
+          ]
+        },
+        {
+          "name": "No runtime or resource errors after favicon fix",
+          "pass": true,
+          "detail": {
+            "runtime": [],
+            "resource": [],
+            "server": []
+          }
+        },
+        {
+          "name": "All 54 encoded pose/angle frames have nonblank source surfaces",
+          "pass": true
+        },
+        {
+          "name": "Actual encoded white variant has a white margin at all nine sampled angles",
+          "pass": true
+        },
+        {
+          "name": "Visual inspection of all six posters and six encoded-frame contact sheets",
+          "pass": true
+        }
+      ],
+      "loopChecks": [
+        {
+          "kind": "hands-right",
+          "start": {
+            "time": 0,
+            "kind": "hands-right",
+            "variant": "dark-technical",
+            "view": [
+              353.73666513462564,
+              346.2637542325334,
+              182.99214501201814,
+              80.67176035686067
+            ],
+            "bounds": [
+              423.5626165868971,
+              351.4127179727153,
+              461.2833796578334,
+              423.492047228621
+            ],
+            "crop": false,
+            "visibleCADSolids": 66,
+            "stage": "rest",
+            "orbit": {
+              "yaw": 0,
+              "pitch": 0
+            },
+            "drawCalls": 3
+          },
+          "end": {
+            "time": 25,
+            "kind": "hands-right",
+            "variant": "dark-technical",
+            "view": [
+              353.73666513462564,
+              346.2637542325334,
+              182.99214501201814,
+              80.67176035686067
+            ],
+            "bounds": [
+              423.5626165868971,
+              351.4127179727153,
+              461.2833796578334,
+              423.492047228621
+            ],
+            "crop": false,
+            "visibleCADSolids": 66,
+            "stage": "settle",
+            "orbit": {
+              "yaw": 0,
+              "pitch": 0
+            },
+            "drawCalls": 3
+          },
+          "first": "1fe977aa4e05a130f8c3b7123125c3948cab939794fa969cef6c37a6696894ea",
+          "last": "1fe977aa4e05a130f8c3b7123125c3948cab939794fa969cef6c37a6696894ea",
+          "equal": true
+        },
+        {
+          "kind": "hands-left",
+          "start": {
+            "time": 0,
+            "kind": "hands-left",
+            "variant": "dark-technical",
+            "view": [
+              526.3663214939777,
+              397.0676803796541,
+              185.69188035859645,
+              81.86193386344374
+            ],
+            "bounds": [
+              595.7696046253142,
+              402.1529591470135,
+              644.163906697577,
+              475.89769076667403
+            ],
+            "crop": false,
+            "visibleCADSolids": 66,
+            "stage": "rest",
+            "orbit": {
+              "yaw": 0,
+              "pitch": 0
+            },
+            "drawCalls": 3
+          },
+          "end": {
+            "time": 25,
+            "kind": "hands-left",
+            "variant": "dark-technical",
+            "view": [
+              526.3663214939777,
+              397.0676803796541,
+              185.69188035859645,
+              81.86193386344374
+            ],
+            "bounds": [
+              595.7696046253142,
+              402.1529591470135,
+              644.163906697577,
+              475.89769076667403
+            ],
+            "crop": false,
+            "visibleCADSolids": 66,
+            "stage": "settle",
+            "orbit": {
+              "yaw": 0,
+              "pitch": 0
+            },
+            "drawCalls": 3
+          },
+          "first": "fec4fe3de8d0b254a0d325e73f27de29b5b1694763342feccf79a16f3133aceb",
+          "last": "fec4fe3de8d0b254a0d325e73f27de29b5b1694763342feccf79a16f3133aceb",
+          "equal": true
+        },
+        {
+          "kind": "hands-both",
+          "start": {
+            "time": 0,
+            "kind": "hands-both",
+            "variant": "dark-technical",
+            "view": [
+              378.6066813707747,
+              344.185753466395,
+              310.260485605487,
+              136.7777810425975
+            ],
+            "bounds": [
+              423.5626165868971,
+              351.41271797271526,
+              644.163906697577,
+              475.89769076667403
+            ],
+            "crop": false,
+            "visibleCADSolids": 132,
+            "stage": "rest",
+            "orbit": {
+              "yaw": 0,
+              "pitch": 0
+            },
+            "drawCalls": 3
+          },
+          "end": {
+            "time": 25,
+            "kind": "hands-both",
+            "variant": "dark-technical",
+            "view": [
+              378.6066813707747,
+              344.185753466395,
+              310.260485605487,
+              136.7777810425975
+            ],
+            "bounds": [
+              423.5626165868971,
+              351.41271797271526,
+              644.163906697577,
+              475.89769076667403
+            ],
+            "crop": false,
+            "visibleCADSolids": 132,
+            "stage": "settle",
+            "orbit": {
+              "yaw": 0,
+              "pitch": 0
+            },
+            "drawCalls": 3
+          },
+          "first": "4a3d74653b24fae5840608dd7cda492f45f8ad66ca2377e62391af9a3f0347b0",
+          "last": "4a3d74653b24fae5840608dd7cda492f45f8ad66ca2377e62391af9a3f0347b0",
+          "equal": true
+        },
+        {
+          "kind": "hand-orbit",
+          "start": {
+            "time": 0,
+            "kind": "hand-orbit",
+            "variant": "dark-technical",
+            "view": [
+              349.7644831846759,
+              343.0400156286398,
+              196.71267793904443,
+              86.72043279678856
+            ],
+            "bounds": [
+              423.5626165868971,
+              351.4127179727153,
+              461.2833796578334,
+              423.492047228621
+            ],
+            "crop": false,
+            "visibleCADSolids": 66,
+            "stage": "rest",
+            "orbit": {
+              "yaw": 0,
+              "pitch": 0
+            },
+            "drawCalls": 3
+          },
+          "end": {
+            "time": 40,
+            "kind": "hand-orbit",
+            "variant": "dark-technical",
+            "view": [
+              349.7644831846759,
+              343.0400156286398,
+              196.71267793904443,
+              86.72043279678856
+            ],
+            "bounds": [
+              423.5626165868971,
+              351.4127179727153,
+              461.2833796578334,
+              423.492047228621
+            ],
+            "crop": false,
+            "visibleCADSolids": 66,
+            "stage": "settle",
+            "orbit": {
+              "yaw": 360,
+              "pitch": 0
+            },
+            "drawCalls": 3
+          },
+          "first": "bf7fcbb66e1af378b4a899cf884bfe4bda169608ffe61b8ee261b8e9e015c028",
+          "last": "bf7fcbb66e1af378b4a899cf884bfe4bda169608ffe61b8ee261b8e9e015c028",
+          "equal": true
+        }
+      ],
+      "whiteFrame": {
+        "corner": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stageCorner": [
+          255,
+          255,
+          255,
+          255
+        ]
+      }
+    },
+    "audioOnlyIntermediate": {
+      "scope": "Historical stage before final lossy video compression; H264 was copied unchanged when sound was added.",
+      "clips": [
+        {
+          "file": "hands-right.mp4",
+          "containerSha256": "320353121c60f691bf867eccb1963d4c86d66c9481a5d6e63a7fedc20560d8eb",
+          "videoElementarySha256": "175036df0210d1527f7796fcd37fb9ace4c83cbf77508e27b2a0285563e9f02c",
+          "videoBytesPreservedAtThisStage": true,
+          "videoPacketsPreservedAtThisStage": true
+        },
+        {
+          "file": "hands-left.mp4",
+          "containerSha256": "e085a0a93a51a7165f8ef6a328e3a6151541ce3dd35282aafb6c4a64882b23e3",
+          "videoElementarySha256": "80b37c9bbfc7c34d3ef53c1b1a90ab6048b16c4f7ca9aa327b8de6076a9448b9",
+          "videoBytesPreservedAtThisStage": true,
+          "videoPacketsPreservedAtThisStage": true
+        },
+        {
+          "file": "hands-both.mp4",
+          "containerSha256": "d3a2bbb8e01699deb83e014b86a3f244343a3b508cb5931f2f6169dac660f31e",
+          "videoElementarySha256": "7e42622f250baee528e974396839a963ca5241c9e3a9c50664c4d7678b66012d",
+          "videoBytesPreservedAtThisStage": true,
+          "videoPacketsPreservedAtThisStage": true
+        },
+        {
+          "file": "hand-360-black-graphite.mp4",
+          "containerSha256": "ed9076e19ba05ef048d7907cb503f7ed88975d6632adc14d9b751ea724e1c18a",
+          "videoElementarySha256": "74bf3e9610f7c6f6bed62ff81408b39cdf0465e61ec56db1640fe19f6bdf38dc",
+          "videoBytesPreservedAtThisStage": true,
+          "videoPacketsPreservedAtThisStage": true
+        },
+        {
+          "file": "hand-360-black-colours.mp4",
+          "containerSha256": "d9f75907ed8f1190dde83fa2c0c06839eb9f4e712f878be0fe64d401100fa2c6",
+          "videoElementarySha256": "b0c78d0421462cda3912391290ac68021fed2b798d8a2ca21c2f154ba5799bf2",
+          "videoBytesPreservedAtThisStage": true,
+          "videoPacketsPreservedAtThisStage": true
+        },
+        {
+          "file": "hand-360-white-colours.mp4",
+          "containerSha256": "c15a7f565d6f0044c11bf2d7c7b9389c0d51632997fd8f9677c2401c6604e33b",
+          "videoElementarySha256": "37778134ede54cc0075697ee0304d67f2360415a9f4053e45839fa9e4d86a6fd",
+          "videoBytesPreservedAtThisStage": true,
+          "videoPacketsPreservedAtThisStage": true
+        }
+      ]
+    }
+  },
+  "pass": true
+}

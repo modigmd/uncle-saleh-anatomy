@@ -1,0 +1,74 @@
+{
+  "schema": 1,
+  "ready": true,
+  "pass": true,
+  "date": "2026-10-11T19:00:32.659Z",
+  "manifest": "export-manifest.json",
+  "manifestSha256": "e1cae96978876cc009b72b528f0e64e6b0d93dd9f1e1e655ae787562e5b09e99",
+  "verification": [
+    "video-verification.json",
+    "audio-verification.json",
+    "compression-verification.json"
+  ],
+  "totalBytes": 53730837,
+  "reductionPercent": 55.87829427699398,
+  "video": {
+    "codec": "h264 / libx264",
+    "crf": 16,
+    "preset": "medium",
+    "lossy": true,
+    "width": 1920,
+    "height": 1080,
+    "fps": 60
+  },
+  "audio": {
+    "codec": "aac",
+    "sampleRate": 48000,
+    "channels": 2,
+    "streamCopied": true
+  },
+  "clips": [
+    {
+      "file": "hands-right.mp4",
+      "sha256": "e58ac2746ccb22aad2c57b2b3ae6b004b3c53e9a5ef3516ff36c5d8f32ef3dcb",
+      "bytes": 7113231,
+      "duration": 25,
+      "poster": "hands-right.jpg"
+    },
+    {
+      "file": "hands-left.mp4",
+      "sha256": "b118cc956ac787afd040644a33b25454331c761a15fa292e7fa768c4cdd2583e",
+      "bytes": 6608052,
+      "duration": 25,
+      "poster": "hands-left.jpg"
+    },
+    {
+      "file": "hands-both.mp4",
+      "sha256": "db390481826c7ffb47a80c267dc83edd2870f8ccd5fff418b55ce71c3e61b3bb",
+      "bytes": 6907071,
+      "duration": 25,
+      "poster": "hands-both.jpg"
+    },
+    {
+      "file": "hand-360-black-graphite.mp4",
+      "sha256": "385b89404949ab7016b58991bb717373ae46dd1c6bffea926ec7055295e766e9",
+      "bytes": 12021687,
+      "duration": 40,
+      "poster": "hand-360-black-graphite.jpg"
+    },
+    {
+      "file": "hand-360-black-colours.mp4",
+      "sha256": "f37086690f1ae33d28f045240ed8be00f536e9dafefdfab6588db184f91a0264",
+      "bytes": 10604284,
+      "duration": 40,
+      "poster": "hand-360-black-colours.jpg"
+    },
+    {
+      "file": "hand-360-white-colours.mp4",
+      "sha256": "714d9d9beaa101f79b9a912f19c6bec3a0be727b4ea86db35745d35be38f0a62",
+      "bytes": 10476512,
+      "duration": 40,
+      "poster": "hand-360-white-colours.jpg"
+    }
+  ]
+}

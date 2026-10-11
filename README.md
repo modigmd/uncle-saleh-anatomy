@@ -1,9 +1,11 @@
 # Uncle Saleh Anatomy
 
-Interactive source CAD inspection and smooth authored mechanism showcases. Open index.html offline or visit the GitHub Pages site.
+[Open the interactive viewer](https://modigmd.github.io/uncle-saleh-anatomy/) · [Watch and download the hand films](https://modigmd.github.io/uncle-saleh-anatomy/videos.html)
 
-The viewer preserves 298 fitted source CAD solids and their original palette. Drag through360°, reveal shells, separate assemblies, and play the available regional showcases. The illustrated motion does not establish servo commands, operating limits or physical linkage behaviour.
+The viewer preserves 298 fitted source CAD solids and their original palette. Drag through 360°, reveal shells, separate assemblies, and play the hand, arm or shoulder showcase. Head and neck remain available for static inspection; their animation is deferred. The standalone HTML also opens offline.
 
-Video exports are in videos/. MP4 files use H.264 for browser and editor playback; video metadata and source provenance are included in the export manifest.
+Six hand films use H.264 at 1920×1080 and 60 fps, with soft plastic clicks following flexes and releases. Right, left and both hands run for 25 seconds. Three right-hand mechanism films run for 40 seconds, combining the complete hand sequence with one slow 360° turn: black/graphite, black/source colours and white/source colours. Video metadata and source provenance are recorded in videos/export-manifest.json.
+
+Motion and sound are authored for presentation; they do not establish servo commands, operating limits or physical linkage behaviour.
 
 Built using the [Anatomy skill](https://github.com/wheresryan22/anatomy), source CAD meshes, and [Three.js](https://threejs.org/).

@@ -1,0 +1,1136 @@
+{
+  "schema": 1,
+  "date": "2026-10-11T18:11:15.867Z",
+  "source": {
+    "artifact": "outputs\\Uncle-Saleh-Technical-Anatomy.html",
+    "artifactSha256": "d5a8f8699d073d990cb4931f7d1dac53dec42b95cbd8efd47d575c29e621e903",
+    "gpuBundleSha256": "11c3c28847dafa3b3b0fff1fcc337f80688e835bed3f23eb442d26f007aeef38",
+    "handBundleSha256": "c8e33be7ee55155133e1bd2fd451daf92f8501c3b752d877ef154045f169e5e1",
+    "packSha256": "9a70347e08649efbf61c6e801e648881dbbd1242fc6a4fcb5513f152fe7dfee6",
+    "rigSha256": "a06bd44053a49912ebdf34089b7484b0999be28c9b579e5f3e27c21b4f69c430",
+    "sourceTriangles": 110728,
+    "objects": 306,
+    "cadSolids": 298,
+    "timelineSha256": "dc76b070892c36c222efe55dd1421c85bb39a57c42e2aaf7ff8cfa0375f31ade"
+  },
+  "method": "Approved GPU renderer and complete source CAD surfaces rendered on a fixed union camera at exact 60 fps sample times. Final delivery uses high-quality lossy x264 CRF16 / medium H264 optimization. Every logical frame presentation time is unchanged. The approved 25 s hand pose study is retimed to 40 s for right-hand 360 variants at a constant 9 degrees/second. Soft stereo plastic clicks remain byte-identical AAC, including packet timing and decoded waveform.",
+  "motionNote": "Authored source-part pose study. Operating linkage, gear coupling and servo limits are not verified.",
+  "clips": [
+    {
+      "file": "hands-right.mp4",
+      "title": "Right hand · approved 25 second showcase",
+      "kind": "hands-right",
+      "variant": "dark-technical",
+      "duration": 25,
+      "width": 1920,
+      "height": 1080,
+      "fps": 60,
+      "poster": "hands-right.jpg",
+      "bytes": 7113231,
+      "sha256": "e58ac2746ccb22aad2c57b2b3ae6b004b3c53e9a5ef3516ff36c5d8f32ef3dcb",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "index": 0,
+            "codec_name": "h264",
+            "profile": "High",
+            "width": 1920,
+            "height": 1080,
+            "pix_fmt": "yuv420p",
+            "r_frame_rate": "60/1",
+            "avg_frame_rate": "60/1",
+            "start_time": "0.000000",
+            "duration": "25.000000",
+            "bit_rate": "2228151",
+            "nb_read_frames": "1500"
+          },
+          {
+            "index": 1,
+            "codec_name": "aac",
+            "profile": "LC",
+            "sample_rate": "48000",
+            "channels": 2,
+            "channel_layout": "stereo",
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "start_time": "0.000000",
+            "duration": "25.000000",
+            "bit_rate": "34814",
+            "nb_read_frames": "1172"
+          }
+        ],
+        "format": {
+          "duration": "25.000000",
+          "size": "7113231"
+        }
+      },
+      "render": {
+        "kind": "hands-right",
+        "variant": "dark-technical",
+        "width": 1920,
+        "height": 1080,
+        "fps": 60,
+        "duration": 25,
+        "plannedFrames": 1500,
+        "encodedChunks": 1500,
+        "encodedBytes": 14149447,
+        "encodeElapsedMs": 15481.200000000186,
+        "croppedFrames": 0,
+        "emptyFrames": 0,
+        "timestampMin": 0,
+        "timestampMax": 24983333,
+        "cameraView": [
+          353.73666513462564,
+          346.2637542325334,
+          182.99214501201814,
+          80.67176035686067
+        ],
+        "sourceCADSolids": 66,
+        "sourceTriangles": 110728,
+        "codec": "avc1.64002a",
+        "motionDuration": 25,
+        "orbitDegrees": 0,
+        "orbitDegreesPerSecond": 0,
+        "scope": "Original deterministic GPU source-render stage, before final lossy x264 optimization."
+      },
+      "wallElapsedMs": 22347,
+      "pass": true,
+      "originalSilentContainerSha256": "f4226ccdf99c1e8fb739cc5c222fad8a382db8771baf9ccd074e84e572842c54",
+      "audio": {
+        "file": "hands-right.mp4",
+        "track": "right",
+        "pass": true,
+        "codec": "aac",
+        "sampleRate": 48000,
+        "channels": 2,
+        "requestedBitrate": 192000,
+        "measuredBitrate": 34814,
+        "duration": 25,
+        "sourceClickInstances": 56,
+        "decodedSamplesPerChannel": 1200128,
+        "sourceSamplesPerChannel": 1200000,
+        "decodedPaddingSamples": 128,
+        "primingCompensatedAlignmentSamples": 0,
+        "alignmentMs": 0,
+        "waveformCorrelation": 0.9998701074617203,
+        "codecSnrDb": 33.820304658636346,
+        "peakDbFS": -17.02812712503589,
+        "truePeakDbFS": -17,
+        "integratedLufs": -42.5,
+        "activeClick50msRmsDbFS": {
+          "median": -39.8670378878183,
+          "maximum": -35.58835541741564,
+          "minimum": -46.628616180124915
+        },
+        "clippedSamples": 0,
+        "firstAndLast100msPeakDbFS": -300,
+        "maximumClickBeatToNearestVideoFrameMs": 8.333333333333748,
+        "videoElementarySha256": "7cec697f3b7a3371fdd12b1200ef33f08f230358796919fffb1afc21399159bf",
+        "audioElementarySha256": "451fac967b69eddaa81ac06b3ffa0ab70ac5405d612fad0ce74e3444d57e5ef3",
+        "containerSha256": "e58ac2746ccb22aad2c57b2b3ae6b004b3c53e9a5ef3516ff36c5d8f32ef3dcb",
+        "videoStreamReencoded": true,
+        "videoPresentationFrameTimesPreserved": true,
+        "audioPacketsAndTimingPreserved": true,
+        "decodedAudioSha256": "882ebc42d5afb6b9933e8460e1edf98b5279ad39d2f5206a55fd30d97117a1af",
+        "decodedAudioBytes": 9601024,
+        "audioBitstreamPreserved": true,
+        "decodedAudioPreserved": true
+      },
+      "preOptimizationContainerSha256": "320353121c60f691bf867eccb1963d4c86d66c9481a5d6e63a7fedc20560d8eb",
+      "posterSha256": "2258e24eb6cd135d8a7025ad913febcff35b010d898db72e624342770d2acd74",
+      "posterSeekTime": 2.15,
+      "contactSheet": "hands-right-contact.jpg",
+      "contactSheetSha256": "599dc36e2dbf72d8d2c9f78beb7ea7fffb5d52dc2334c2ae421c0a46b362b200",
+      "videoCompression": {
+        "codec": "libx264",
+        "preset": "medium",
+        "crf": 16,
+        "pixelFormat": "yuv420p",
+        "threads": 2,
+        "lookaheadThreads": 1,
+        "lossy": true,
+        "originalBytes": 14290727,
+        "reductionPercent": 50.22484860287374,
+        "logicalPresentationFrameTimesPreserved": true,
+        "quality": {
+          "full": {
+            "frames": 1500,
+            "mean": 0.9990275240000009,
+            "minimum": 0.998296,
+            "p01": 0.998453,
+            "median": 0.999023
+          },
+          "foreground": {
+            "frames": 1500,
+            "mean": 0.9965978619999993,
+            "minimum": 0.993572,
+            "p01": 0.994235,
+            "median": 0.996545
+          },
+          "caption": {
+            "frames": 1500,
+            "mean": 0.9993222526666666,
+            "minimum": 0.998664,
+            "p01": 0.998784,
+            "median": 0.999383
+          },
+          "foregroundRegion": {
+            "x": 600,
+            "y": 140,
+            "width": 720,
+            "height": 740
+          },
+          "captionRegion": {
+            "x": 64,
+            "y": 920,
+            "width": 1792,
+            "height": 100
+          }
+        }
+      }
+    },
+    {
+      "file": "hands-left.mp4",
+      "title": "Left hand · approved 25 second showcase",
+      "kind": "hands-left",
+      "variant": "dark-technical",
+      "duration": 25,
+      "width": 1920,
+      "height": 1080,
+      "fps": 60,
+      "poster": "hands-left.jpg",
+      "bytes": 6608052,
+      "sha256": "b118cc956ac787afd040644a33b25454331c761a15fa292e7fa768c4cdd2583e",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "index": 0,
+            "codec_name": "h264",
+            "profile": "High",
+            "width": 1920,
+            "height": 1080,
+            "pix_fmt": "yuv420p",
+            "r_frame_rate": "60/1",
+            "avg_frame_rate": "60/1",
+            "start_time": "0.000000",
+            "duration": "25.000000",
+            "bit_rate": "2066258",
+            "nb_read_frames": "1500"
+          },
+          {
+            "index": 1,
+            "codec_name": "aac",
+            "profile": "LC",
+            "sample_rate": "48000",
+            "channels": 2,
+            "channel_layout": "stereo",
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "start_time": "0.000000",
+            "duration": "25.000000",
+            "bit_rate": "35060",
+            "nb_read_frames": "1172"
+          }
+        ],
+        "format": {
+          "duration": "25.000000",
+          "size": "6608052"
+        }
+      },
+      "render": {
+        "kind": "hands-left",
+        "variant": "dark-technical",
+        "width": 1920,
+        "height": 1080,
+        "fps": 60,
+        "duration": 25,
+        "plannedFrames": 1500,
+        "encodedChunks": 1500,
+        "encodedBytes": 13140748,
+        "encodeElapsedMs": 15177.399999999441,
+        "croppedFrames": 0,
+        "emptyFrames": 0,
+        "timestampMin": 0,
+        "timestampMax": 24983333,
+        "cameraView": [
+          526.3663214939777,
+          397.0676803796541,
+          185.69188035859645,
+          81.86193386344374
+        ],
+        "sourceCADSolids": 66,
+        "sourceTriangles": 110728,
+        "codec": "avc1.64002a",
+        "motionDuration": 25,
+        "orbitDegrees": 0,
+        "orbitDegreesPerSecond": 0,
+        "scope": "Original deterministic GPU source-render stage, before final lossy x264 optimization."
+      },
+      "wallElapsedMs": 17986,
+      "pass": true,
+      "originalSilentContainerSha256": "a54aadec58ca6187d51a2664842c62eea4e0b50044f90d0da0598226cee0d939",
+      "audio": {
+        "file": "hands-left.mp4",
+        "track": "left",
+        "pass": true,
+        "codec": "aac",
+        "sampleRate": 48000,
+        "channels": 2,
+        "requestedBitrate": 192000,
+        "measuredBitrate": 35060,
+        "duration": 25,
+        "sourceClickInstances": 56,
+        "decodedSamplesPerChannel": 1200128,
+        "sourceSamplesPerChannel": 1200000,
+        "decodedPaddingSamples": 128,
+        "primingCompensatedAlignmentSamples": 0,
+        "alignmentMs": 0,
+        "waveformCorrelation": 0.9998674716368336,
+        "codecSnrDb": 33.37732033780351,
+        "peakDbFS": -17.028737538515635,
+        "truePeakDbFS": -17,
+        "integratedLufs": -43.4,
+        "activeClick50msRmsDbFS": {
+          "median": -40.250057401118696,
+          "maximum": -35.78382864023593,
+          "minimum": -48.20022118218796
+        },
+        "clippedSamples": 0,
+        "firstAndLast100msPeakDbFS": -300,
+        "maximumClickBeatToNearestVideoFrameMs": 8.333333333333748,
+        "videoElementarySha256": "5044e5405570c24e826b8e1306b3dbe815ec2a53d33a5a476f9f304d8cd896aa",
+        "audioElementarySha256": "7794b62281bba2b339b637c70f7aec626a388adf7574eeca040dba725a1c133d",
+        "containerSha256": "b118cc956ac787afd040644a33b25454331c761a15fa292e7fa768c4cdd2583e",
+        "videoStreamReencoded": true,
+        "videoPresentationFrameTimesPreserved": true,
+        "audioPacketsAndTimingPreserved": true,
+        "decodedAudioSha256": "cd768994b40c3f1e113c95fddc6770d1bfed25d9dbf952e48b14c6ee857bfebd",
+        "decodedAudioBytes": 9601024,
+        "audioBitstreamPreserved": true,
+        "decodedAudioPreserved": true
+      },
+      "preOptimizationContainerSha256": "e085a0a93a51a7165f8ef6a328e3a6151541ce3dd35282aafb6c4a64882b23e3",
+      "posterSha256": "aab90db942793c6fcf1dc8a6ad3cc3e58a4ad1633bc3fe44cc6b04d641c59cc5",
+      "posterSeekTime": 2.15,
+      "contactSheet": "hands-left-contact.jpg",
+      "contactSheetSha256": "8b957456957626cd1788af2615a9c38d3b7498ca72128236e2499e8c598a9ad2",
+      "videoCompression": {
+        "codec": "libx264",
+        "preset": "medium",
+        "crf": 16,
+        "pixelFormat": "yuv420p",
+        "threads": 2,
+        "lookaheadThreads": 1,
+        "lossy": true,
+        "originalBytes": 13282797,
+        "reductionPercent": 50.25105028707433,
+        "logicalPresentationFrameTimesPreserved": true,
+        "quality": {
+          "full": {
+            "frames": 1500,
+            "mean": 0.9990692000000003,
+            "minimum": 0.997894,
+            "p01": 0.998362,
+            "median": 0.999083
+          },
+          "foreground": {
+            "frames": 1500,
+            "mean": 0.9967678619999993,
+            "minimum": 0.992172,
+            "p01": 0.993843,
+            "median": 0.996861
+          },
+          "caption": {
+            "frames": 1500,
+            "mean": 0.9993191313333317,
+            "minimum": 0.998435,
+            "p01": 0.998674,
+            "median": 0.999387
+          },
+          "foregroundRegion": {
+            "x": 600,
+            "y": 140,
+            "width": 720,
+            "height": 740
+          },
+          "captionRegion": {
+            "x": 64,
+            "y": 920,
+            "width": 1792,
+            "height": 100
+          }
+        }
+      }
+    },
+    {
+      "file": "hands-both.mp4",
+      "title": "Both hands · approved 25 second showcase",
+      "kind": "hands-both",
+      "variant": "dark-technical",
+      "duration": 25,
+      "width": 1920,
+      "height": 1080,
+      "fps": 60,
+      "poster": "hands-both.jpg",
+      "bytes": 6907071,
+      "sha256": "db390481826c7ffb47a80c267dc83edd2870f8ccd5fff418b55ce71c3e61b3bb",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "index": 0,
+            "codec_name": "h264",
+            "profile": "High",
+            "width": 1920,
+            "height": 1080,
+            "pix_fmt": "yuv420p",
+            "r_frame_rate": "60/1",
+            "avg_frame_rate": "60/1",
+            "start_time": "0.000000",
+            "duration": "25.000000",
+            "bit_rate": "2161952",
+            "nb_read_frames": "1500"
+          },
+          {
+            "index": 1,
+            "codec_name": "aac",
+            "profile": "LC",
+            "sample_rate": "48000",
+            "channels": 2,
+            "channel_layout": "stereo",
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "start_time": "0.000000",
+            "duration": "25.000000",
+            "bit_rate": "35042",
+            "nb_read_frames": "1172"
+          }
+        ],
+        "format": {
+          "duration": "25.000000",
+          "size": "6907071"
+        }
+      },
+      "render": {
+        "kind": "hands-both",
+        "variant": "dark-technical",
+        "width": 1920,
+        "height": 1080,
+        "fps": 60,
+        "duration": 25,
+        "plannedFrames": 1500,
+        "encodedChunks": 1500,
+        "encodedBytes": 13748335,
+        "encodeElapsedMs": 15035.800000000745,
+        "croppedFrames": 0,
+        "emptyFrames": 0,
+        "timestampMin": 0,
+        "timestampMax": 24983333,
+        "cameraView": [
+          378.6066813707747,
+          344.185753466395,
+          310.260485605487,
+          136.7777810425975
+        ],
+        "sourceCADSolids": 132,
+        "sourceTriangles": 110728,
+        "codec": "avc1.64002a",
+        "motionDuration": 25,
+        "orbitDegrees": 0,
+        "orbitDegreesPerSecond": 0,
+        "scope": "Original deterministic GPU source-render stage, before final lossy x264 optimization."
+      },
+      "wallElapsedMs": 17831,
+      "pass": true,
+      "originalSilentContainerSha256": "a810309af91da4a94b8a21b18070558e0d3fde6eadfa7ff246345ed8b46a7903",
+      "audio": {
+        "file": "hands-both.mp4",
+        "track": "both",
+        "pass": true,
+        "codec": "aac",
+        "sampleRate": 48000,
+        "channels": 2,
+        "requestedBitrate": 192000,
+        "measuredBitrate": 35042,
+        "duration": 25,
+        "sourceClickInstances": 112,
+        "decodedSamplesPerChannel": 1200128,
+        "sourceSamplesPerChannel": 1200000,
+        "decodedPaddingSamples": 128,
+        "primingCompensatedAlignmentSamples": 0,
+        "alignmentMs": 0,
+        "waveformCorrelation": 0.9998769537919447,
+        "codecSnrDb": 33.85214109364347,
+        "peakDbFS": -15.541915821437044,
+        "truePeakDbFS": -15.5,
+        "integratedLufs": -41.1,
+        "activeClick50msRmsDbFS": {
+          "median": -38.561481032595964,
+          "maximum": -33.80036731721287,
+          "minimum": -46.45683379218098
+        },
+        "clippedSamples": 0,
+        "firstAndLast100msPeakDbFS": -300,
+        "maximumClickBeatToNearestVideoFrameMs": 8.333333333333748,
+        "videoElementarySha256": "3e8ecb3aaa75221ed193ed323cf0f811456fdfc3472a6115bb7a56546b00cc06",
+        "audioElementarySha256": "25e16d79f9c30eb2c6e9c63f275c7a79ea9be4ba490c2b2080615419dec37387",
+        "containerSha256": "db390481826c7ffb47a80c267dc83edd2870f8ccd5fff418b55ce71c3e61b3bb",
+        "videoStreamReencoded": true,
+        "videoPresentationFrameTimesPreserved": true,
+        "audioPacketsAndTimingPreserved": true,
+        "decodedAudioSha256": "0409a1ddac0a1d4acbc2d608a7aff439bc5f41e57246dbedae461497342f9f62",
+        "decodedAudioBytes": 9601024,
+        "audioBitstreamPreserved": true,
+        "decodedAudioPreserved": true
+      },
+      "preOptimizationContainerSha256": "d3a2bbb8e01699deb83e014b86a3f244343a3b508cb5931f2f6169dac660f31e",
+      "posterSha256": "0fad473ad6aaab0c5c97a2da77875ead2d517e2bfd474e1c019449769ad60d92",
+      "posterSeekTime": 2.15,
+      "contactSheet": "hands-both-contact.jpg",
+      "contactSheetSha256": "d63fc2dee559a236985f57fcf786505ffb6687ad3140ade44b27dc6807052c67",
+      "videoCompression": {
+        "codec": "libx264",
+        "preset": "medium",
+        "crf": 16,
+        "pixelFormat": "yuv420p",
+        "threads": 2,
+        "lookaheadThreads": 1,
+        "lossy": true,
+        "originalBytes": 13890326,
+        "reductionPercent": 50.27423402445702,
+        "logicalPresentationFrameTimesPreserved": true,
+        "quality": {
+          "full": {
+            "frames": 1500,
+            "mean": 0.9991166986666673,
+            "minimum": 0.998268,
+            "p01": 0.998549,
+            "median": 0.999122
+          },
+          "foreground": {
+            "frames": 1500,
+            "mean": 0.9984748519999983,
+            "minimum": 0.996727,
+            "p01": 0.997286,
+            "median": 0.998524
+          },
+          "caption": {
+            "frames": 1500,
+            "mean": 0.9993265253333318,
+            "minimum": 0.998499,
+            "p01": 0.998701,
+            "median": 0.999375
+          },
+          "foregroundRegion": {
+            "x": 240,
+            "y": 140,
+            "width": 1440,
+            "height": 740
+          },
+          "captionRegion": {
+            "x": 64,
+            "y": 920,
+            "width": 1792,
+            "height": 100
+          }
+        }
+      }
+    },
+    {
+      "file": "hand-360-black-graphite.mp4",
+      "title": "Right hand 360° · black / graphite",
+      "kind": "hand-orbit",
+      "variant": "dark-technical",
+      "duration": 40,
+      "width": 1920,
+      "height": 1080,
+      "fps": 60,
+      "poster": "hand-360-black-graphite.jpg",
+      "bytes": 12021687,
+      "sha256": "385b89404949ab7016b58991bb717373ae46dd1c6bffea926ec7055295e766e9",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "index": 0,
+            "codec_name": "h264",
+            "profile": "High",
+            "width": 1920,
+            "height": 1080,
+            "pix_fmt": "yuv420p",
+            "r_frame_rate": "60/1",
+            "avg_frame_rate": "60/1",
+            "start_time": "0.000000",
+            "duration": "40.000000",
+            "bit_rate": "2368577",
+            "nb_read_frames": "2400"
+          },
+          {
+            "index": 1,
+            "codec_name": "aac",
+            "profile": "LC",
+            "sample_rate": "48000",
+            "channels": 2,
+            "channel_layout": "stereo",
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "start_time": "0.000000",
+            "duration": "40.000000",
+            "bit_rate": "22685",
+            "nb_read_frames": "1875"
+          }
+        ],
+        "format": {
+          "duration": "40.000000",
+          "size": "12021687"
+        }
+      },
+      "render": {
+        "kind": "hand-orbit",
+        "variant": "dark-technical",
+        "width": 1920,
+        "height": 1080,
+        "fps": 60,
+        "duration": 40,
+        "plannedFrames": 2400,
+        "encodedChunks": 2400,
+        "encodedBytes": 25780079,
+        "encodeElapsedMs": 21317.700000000186,
+        "croppedFrames": 0,
+        "emptyFrames": 0,
+        "timestampMin": 0,
+        "timestampMax": 39983333,
+        "cameraView": [
+          349.7644831846759,
+          343.0400156286398,
+          196.71267793904443,
+          86.72043279678856
+        ],
+        "sourceCADSolids": 66,
+        "sourceTriangles": 110728,
+        "codec": "avc1.64002a",
+        "motionDuration": 25,
+        "orbitDegrees": 360,
+        "orbitDegreesPerSecond": 9,
+        "scope": "Original deterministic GPU source-render stage, before final lossy x264 optimization."
+      },
+      "wallElapsedMs": 26686,
+      "pass": true,
+      "originalSilentContainerSha256": "46a3558783ceb82cdf236b8f244c3a49879c718bde3486298d49afbac4cddb16",
+      "audio": {
+        "file": "hand-360-black-graphite.mp4",
+        "track": "orbit",
+        "pass": true,
+        "codec": "aac",
+        "sampleRate": 48000,
+        "channels": 2,
+        "requestedBitrate": 192000,
+        "measuredBitrate": 22685,
+        "duration": 40,
+        "sourceClickInstances": 56,
+        "decodedSamplesPerChannel": 1920000,
+        "sourceSamplesPerChannel": 1920000,
+        "decodedPaddingSamples": 0,
+        "primingCompensatedAlignmentSamples": 0,
+        "alignmentMs": 0,
+        "waveformCorrelation": 0.9998214583856726,
+        "codecSnrDb": 33.91669289414635,
+        "peakDbFS": -17.060226430698464,
+        "truePeakDbFS": -17,
+        "integratedLufs": -42.8,
+        "activeClick50msRmsDbFS": {
+          "median": -39.12027937226945,
+          "maximum": -34.900044904368755,
+          "minimum": -45.898591693697924
+        },
+        "clippedSamples": 0,
+        "firstAndLast100msPeakDbFS": -300,
+        "maximumClickBeatToNearestVideoFrameMs": 8.000000000002672,
+        "videoElementarySha256": "75d36e041c4c01e78508056af5aa90edf019ac28adf390dd3ae68d43661f2a94",
+        "audioElementarySha256": "eba4757881511782a08f48d0ef4f501f99a484d2043735164689983fafd346da",
+        "containerSha256": "385b89404949ab7016b58991bb717373ae46dd1c6bffea926ec7055295e766e9",
+        "videoStreamReencoded": true,
+        "videoPresentationFrameTimesPreserved": true,
+        "audioPacketsAndTimingPreserved": true,
+        "decodedAudioSha256": "bf9f748a461e497987096c4f4571b4c42409d05439004481b7f91f6dcbfd7b7a",
+        "decodedAudioBytes": 15360000,
+        "audioBitstreamPreserved": true,
+        "decodedAudioPreserved": true
+      },
+      "preOptimizationContainerSha256": "ed9076e19ba05ef048d7907cb503f7ed88975d6632adc14d9b751ea724e1c18a",
+      "posterSha256": "151511d0294c809be48eeb3689779e9e91af127f6ea9fcea93f2a78538f3ca07",
+      "posterSeekTime": 3.44,
+      "contactSheet": "hand-360-black-graphite-contact.jpg",
+      "contactSheetSha256": "5424e8012170e9131f9c6864262019e0b76e63fcc2f30e7978e368ae4e2e72f0",
+      "videoCompression": {
+        "codec": "libx264",
+        "preset": "medium",
+        "crf": 16,
+        "pixelFormat": "yuv420p",
+        "threads": 2,
+        "lookaheadThreads": 1,
+        "lossy": true,
+        "originalBytes": 25944544,
+        "reductionPercent": 53.66391099415738,
+        "logicalPresentationFrameTimesPreserved": true,
+        "quality": {
+          "full": {
+            "frames": 2400,
+            "mean": 0.9989635541666646,
+            "minimum": 0.998271,
+            "p01": 0.998498,
+            "median": 0.998926
+          },
+          "foreground": {
+            "frames": 2400,
+            "mean": 0.9962908837499981,
+            "minimum": 0.9935,
+            "p01": 0.994486,
+            "median": 0.99618
+          },
+          "caption": {
+            "frames": 2400,
+            "mean": 0.999461633750003,
+            "minimum": 0.998417,
+            "p01": 0.998737,
+            "median": 0.999562
+          },
+          "foregroundRegion": {
+            "x": 600,
+            "y": 140,
+            "width": 720,
+            "height": 740
+          },
+          "captionRegion": {
+            "x": 64,
+            "y": 920,
+            "width": 1792,
+            "height": 100
+          }
+        }
+      }
+    },
+    {
+      "file": "hand-360-black-colours.mp4",
+      "title": "Right hand 360° · black / source colours",
+      "kind": "hand-orbit",
+      "variant": "dark-original",
+      "duration": 40,
+      "width": 1920,
+      "height": 1080,
+      "fps": 60,
+      "poster": "hand-360-black-colours.jpg",
+      "bytes": 10604284,
+      "sha256": "f37086690f1ae33d28f045240ed8be00f536e9dafefdfab6588db184f91a0264",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "index": 0,
+            "codec_name": "h264",
+            "profile": "High",
+            "width": 1920,
+            "height": 1080,
+            "pix_fmt": "yuv420p",
+            "r_frame_rate": "60/1",
+            "avg_frame_rate": "60/1",
+            "start_time": "0.000000",
+            "duration": "40.000000",
+            "bit_rate": "2085097",
+            "nb_read_frames": "2400"
+          },
+          {
+            "index": 1,
+            "codec_name": "aac",
+            "profile": "LC",
+            "sample_rate": "48000",
+            "channels": 2,
+            "channel_layout": "stereo",
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "start_time": "0.000000",
+            "duration": "40.000000",
+            "bit_rate": "22685",
+            "nb_read_frames": "1875"
+          }
+        ],
+        "format": {
+          "duration": "40.000000",
+          "size": "10604284"
+        }
+      },
+      "render": {
+        "kind": "hand-orbit",
+        "variant": "dark-original",
+        "width": 1920,
+        "height": 1080,
+        "fps": 60,
+        "duration": 40,
+        "plannedFrames": 2400,
+        "encodedChunks": 2400,
+        "encodedBytes": 26925275,
+        "encodeElapsedMs": 15776.200000000186,
+        "croppedFrames": 0,
+        "emptyFrames": 0,
+        "timestampMin": 0,
+        "timestampMax": 39983333,
+        "cameraView": [
+          349.7644831846759,
+          343.0400156286398,
+          196.71267793904443,
+          86.72043279678856
+        ],
+        "sourceCADSolids": 66,
+        "sourceTriangles": 110728,
+        "codec": "avc1.64002a",
+        "motionDuration": 25,
+        "orbitDegrees": 360,
+        "orbitDegreesPerSecond": 9,
+        "scope": "Original deterministic GPU source-render stage, before final lossy x264 optimization."
+      },
+      "wallElapsedMs": 20352,
+      "pass": true,
+      "originalSilentContainerSha256": "f24d7eff4fbacd5b9be69715f178ebe018903a6d79a082a2ebd7e693d756f366",
+      "audio": {
+        "file": "hand-360-black-colours.mp4",
+        "track": "orbit",
+        "pass": true,
+        "codec": "aac",
+        "sampleRate": 48000,
+        "channels": 2,
+        "requestedBitrate": 192000,
+        "measuredBitrate": 22685,
+        "duration": 40,
+        "sourceClickInstances": 56,
+        "decodedSamplesPerChannel": 1920000,
+        "sourceSamplesPerChannel": 1920000,
+        "decodedPaddingSamples": 0,
+        "primingCompensatedAlignmentSamples": 0,
+        "alignmentMs": 0,
+        "waveformCorrelation": 0.9998214583856726,
+        "codecSnrDb": 33.91669289414635,
+        "peakDbFS": -17.060226430698464,
+        "truePeakDbFS": -17,
+        "integratedLufs": -42.8,
+        "activeClick50msRmsDbFS": {
+          "median": -39.12027937226945,
+          "maximum": -34.900044904368755,
+          "minimum": -45.898591693697924
+        },
+        "clippedSamples": 0,
+        "firstAndLast100msPeakDbFS": -300,
+        "maximumClickBeatToNearestVideoFrameMs": 8.000000000002672,
+        "videoElementarySha256": "c706af8152ade9ed066da34ab352a96d50045a04bafa8adca5eee141261ad8f3",
+        "audioElementarySha256": "eba4757881511782a08f48d0ef4f501f99a484d2043735164689983fafd346da",
+        "containerSha256": "f37086690f1ae33d28f045240ed8be00f536e9dafefdfab6588db184f91a0264",
+        "videoStreamReencoded": true,
+        "videoPresentationFrameTimesPreserved": true,
+        "audioPacketsAndTimingPreserved": true,
+        "decodedAudioSha256": "bf9f748a461e497987096c4f4571b4c42409d05439004481b7f91f6dcbfd7b7a",
+        "decodedAudioBytes": 15360000,
+        "audioBitstreamPreserved": true,
+        "decodedAudioPreserved": true
+      },
+      "preOptimizationContainerSha256": "d9f75907ed8f1190dde83fa2c0c06839eb9f4e712f878be0fe64d401100fa2c6",
+      "posterSha256": "746ee8e086ac52f8727f70540ab68f728e3173647c77dc748c2c7cc9c393609b",
+      "posterSeekTime": 3.44,
+      "contactSheet": "hand-360-black-colours-contact.jpg",
+      "contactSheetSha256": "c79002c8e0b2ca53180cdec00e99ec2baa6fbb507858efd08b7d613d000865cd",
+      "videoCompression": {
+        "codec": "libx264",
+        "preset": "medium",
+        "crf": 16,
+        "pixelFormat": "yuv420p",
+        "threads": 2,
+        "lookaheadThreads": 1,
+        "lossy": true,
+        "originalBytes": 27089740,
+        "reductionPercent": 60.85498052030031,
+        "logicalPresentationFrameTimesPreserved": true,
+        "quality": {
+          "full": {
+            "frames": 2400,
+            "mean": 0.9990327391666682,
+            "minimum": 0.998505,
+            "p01": 0.998595,
+            "median": 0.999039
+          },
+          "foreground": {
+            "frames": 2400,
+            "mean": 0.9965444512500026,
+            "minimum": 0.994424,
+            "p01": 0.994865,
+            "median": 0.996565
+          },
+          "caption": {
+            "frames": 2400,
+            "mean": 0.9994611354166673,
+            "minimum": 0.998441,
+            "p01": 0.998787,
+            "median": 0.999565
+          },
+          "foregroundRegion": {
+            "x": 600,
+            "y": 140,
+            "width": 720,
+            "height": 740
+          },
+          "captionRegion": {
+            "x": 64,
+            "y": 920,
+            "width": 1792,
+            "height": 100
+          }
+        }
+      }
+    },
+    {
+      "file": "hand-360-white-colours.mp4",
+      "title": "Right hand 360° · white / source colours",
+      "kind": "hand-orbit",
+      "variant": "white-original",
+      "duration": 40,
+      "width": 1920,
+      "height": 1080,
+      "fps": 60,
+      "poster": "hand-360-white-colours.jpg",
+      "bytes": 10476512,
+      "sha256": "714d9d9beaa101f79b9a912f19c6bec3a0be727b4ea86db35745d35be38f0a62",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "index": 0,
+            "codec_name": "h264",
+            "profile": "High",
+            "width": 1920,
+            "height": 1080,
+            "pix_fmt": "yuv420p",
+            "r_frame_rate": "60/1",
+            "avg_frame_rate": "60/1",
+            "start_time": "0.000000",
+            "duration": "40.000000",
+            "bit_rate": "2059542",
+            "nb_read_frames": "2400"
+          },
+          {
+            "index": 1,
+            "codec_name": "aac",
+            "profile": "LC",
+            "sample_rate": "48000",
+            "channels": 2,
+            "channel_layout": "stereo",
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "start_time": "0.000000",
+            "duration": "40.000000",
+            "bit_rate": "22685",
+            "nb_read_frames": "1875"
+          }
+        ],
+        "format": {
+          "duration": "40.000000",
+          "size": "10476512"
+        }
+      },
+      "render": {
+        "kind": "hand-orbit",
+        "variant": "white-original",
+        "width": 1920,
+        "height": 1080,
+        "fps": 60,
+        "duration": 40,
+        "plannedFrames": 2400,
+        "encodedChunks": 2400,
+        "encodedBytes": 27116095,
+        "encodeElapsedMs": 17748.60000000056,
+        "croppedFrames": 0,
+        "emptyFrames": 0,
+        "timestampMin": 0,
+        "timestampMax": 39983333,
+        "cameraView": [
+          349.7644831846759,
+          343.0400156286398,
+          196.71267793904443,
+          86.72043279678856
+        ],
+        "sourceCADSolids": 66,
+        "sourceTriangles": 110728,
+        "codec": "avc1.64002a",
+        "motionDuration": 25,
+        "orbitDegrees": 360,
+        "orbitDegreesPerSecond": 9,
+        "scope": "Original deterministic GPU source-render stage, before final lossy x264 optimization."
+      },
+      "wallElapsedMs": 22287,
+      "pass": true,
+      "originalSilentContainerSha256": "ae71a5a962e7e213cb4bf9875a152e30002470eea4390bf1ad7bf26097dbf601",
+      "audio": {
+        "file": "hand-360-white-colours.mp4",
+        "track": "orbit",
+        "pass": true,
+        "codec": "aac",
+        "sampleRate": 48000,
+        "channels": 2,
+        "requestedBitrate": 192000,
+        "measuredBitrate": 22685,
+        "duration": 40,
+        "sourceClickInstances": 56,
+        "decodedSamplesPerChannel": 1920000,
+        "sourceSamplesPerChannel": 1920000,
+        "decodedPaddingSamples": 0,
+        "primingCompensatedAlignmentSamples": 0,
+        "alignmentMs": 0,
+        "waveformCorrelation": 0.9998214583856726,
+        "codecSnrDb": 33.91669289414635,
+        "peakDbFS": -17.060226430698464,
+        "truePeakDbFS": -17,
+        "integratedLufs": -42.8,
+        "activeClick50msRmsDbFS": {
+          "median": -39.12027937226945,
+          "maximum": -34.900044904368755,
+          "minimum": -45.898591693697924
+        },
+        "clippedSamples": 0,
+        "firstAndLast100msPeakDbFS": -300,
+        "maximumClickBeatToNearestVideoFrameMs": 8.000000000002672,
+        "videoElementarySha256": "8f472aaab72bbcde02a525943f9d91d44d58a553e25a68b7a0195e221a660610",
+        "audioElementarySha256": "eba4757881511782a08f48d0ef4f501f99a484d2043735164689983fafd346da",
+        "containerSha256": "714d9d9beaa101f79b9a912f19c6bec3a0be727b4ea86db35745d35be38f0a62",
+        "videoStreamReencoded": true,
+        "videoPresentationFrameTimesPreserved": true,
+        "audioPacketsAndTimingPreserved": true,
+        "decodedAudioSha256": "bf9f748a461e497987096c4f4571b4c42409d05439004481b7f91f6dcbfd7b7a",
+        "decodedAudioBytes": 15360000,
+        "audioBitstreamPreserved": true,
+        "decodedAudioPreserved": true
+      },
+      "preOptimizationContainerSha256": "c15a7f565d6f0044c11bf2d7c7b9389c0d51632997fd8f9677c2401c6604e33b",
+      "posterSha256": "06e0966f6fcfd2c13e04031932513b7816230b91850810907d5cf0e7c151824f",
+      "posterSeekTime": 3.44,
+      "contactSheet": "hand-360-white-colours-contact.jpg",
+      "contactSheetSha256": "dbfdfec39d17881cc708da216f0ad01a4cda59d71e09edd3b4164a39c3f29c86",
+      "videoCompression": {
+        "codec": "libx264",
+        "preset": "medium",
+        "crf": 16,
+        "pixelFormat": "yuv420p",
+        "threads": 2,
+        "lookaheadThreads": 1,
+        "lossy": true,
+        "originalBytes": 27280560,
+        "reductionPercent": 61.597151964622434,
+        "logicalPresentationFrameTimesPreserved": true,
+        "quality": {
+          "full": {
+            "frames": 2400,
+            "mean": 0.9990189633333327,
+            "minimum": 0.998439,
+            "p01": 0.998591,
+            "median": 0.999034
+          },
+          "foreground": {
+            "frames": 2400,
+            "mean": 0.9965401037499974,
+            "minimum": 0.994408,
+            "p01": 0.994871,
+            "median": 0.996587
+          },
+          "caption": {
+            "frames": 2400,
+            "mean": 0.999386351666667,
+            "minimum": 0.998332,
+            "p01": 0.998723,
+            "median": 0.999467
+          },
+          "foregroundRegion": {
+            "x": 600,
+            "y": 140,
+            "width": 720,
+            "height": 740
+          },
+          "captionRegion": {
+            "x": 64,
+            "y": 920,
+            "width": 1792,
+            "height": 100
+          }
+        }
+      }
+    }
+  ],
+  "errors": [],
+  "initialResourceWarnings": [
+    "Failed to load resource: the server responded with a status of 404 (Not Found)"
+  ],
+  "pass": true,
+  "complete": true,
+  "resourceWarningExplanation": "Initial export browser requested an absent favicon.ico (404). It was outside the video frame and did not affect renderer or encoded video. Export HTML now embeds an empty favicon; repeat smoke has zero resource errors.",
+  "verification": "video-verification.json",
+  "visualInspection": {
+    "pass": true,
+    "reviewers": [
+      "root",
+      "optimized_qa",
+      "visual_finish"
+    ],
+    "inspectedContactSheets": [
+      "hands-right-contact.jpg",
+      "hands-left-contact.jpg",
+      "hands-both-contact.jpg",
+      "hand-360-black-graphite-contact.jpg",
+      "hand-360-black-colours-contact.jpg",
+      "hand-360-white-colours-contact.jpg"
+    ],
+    "inspectedPosters": [
+      "hands-right.jpg",
+      "hands-left.jpg",
+      "hands-both.jpg",
+      "hand-360-black-graphite.jpg",
+      "hand-360-black-colours.jpg",
+      "hand-360-white-colours.jpg"
+    ],
+    "decodedFrameSamples": 60,
+    "notes": [
+      "All six CRF16 contact sheets and posters inspected; the 60 decoded samples include thumb fold, both ripple handoffs, wrist motion, combined finale and all orbit quadrants.",
+      "Graphite source edges, both-hand readability, original colours, white background and captions passed.",
+      "Root separately inspected CAD and captions at 100% scale; visual_finish independently approved final contacts and the both-hand/white source-colour variants."
+    ]
+  },
+  "totalBytes": 53730837,
+  "audio": {
+    "codec": "aac",
+    "sampleRate": 48000,
+    "channels": 2,
+    "requestedBitrate": 192000,
+    "description": "Soft, dry plastic clicks synchronized to actual finger, thumb and wrist movement beats. Softer releases and subtle stereo placement; no music or speech.",
+    "orbitRetimeFactor": 1.6,
+    "sourceTimelineSha256": "dc76b070892c36c222efe55dd1421c85bb39a57c42e2aaf7ff8cfa0375f31ade",
+    "verification": "audio-verification.json",
+    "preview": "work/video-export/audio/preview-plastic-clicks.wav",
+    "auditionPerformed": false,
+    "videoStreamReencoded": true,
+    "pass": true,
+    "audioStreamReencoded": false,
+    "audioBitstreamPreserved": true
+  },
+  "videoOptimization": {
+    "codec": "libx264",
+    "crf": 16,
+    "preset": "medium",
+    "lossy": true,
+    "verification": "compression-verification.json",
+    "originalTotalBytes": 121778694,
+    "finalTotalBytes": 53730837,
+    "reductionPercent": 55.87829427699398
+  },
+  "updated": "2026-10-11T19:00:32.608Z"
+}
